@@ -1,14 +1,13 @@
-# R_bagimsiz_tekrar.R — Python sonuçlarının R ile bağımsız tekrarı (ön kayıttaki yazılım beyanı)
-# Kullanım: RStudio'da proje klasörünü çalışma dizini yapın (Session > Set Working Directory) ve Source edin.
-# Gerekli paketler: data.table, jsonlite, MASS  →  install.packages(c("data.table","jsonlite","MASS"))
-# Çıktı: 05_ciktilar/R_tekrar_karsilastirma.csv  (Python değeri, R değeri, fark) ve konsol özeti
+# R_bagimsiz_tekrar.R — Independent replication in R of the age-standardised rates and principal rank statistics.
+# Run from the repository root (setwd to the repository folder). Packages: data.table, jsonlite, MASS.
+# Output: results/tables/R_tekrar_karsilastirma.csv (Python value, R value, difference). Comments in the body are in Turkish.
 suppressPackageStartupMessages({ library(data.table); library(jsonlite); library(MASS) })
 
-w   <- fread("02_agirliklar/agirliklar_100bin_ANALIZ.csv")
+w   <- fread("data/weights/agirliklar_100bin_ANALIZ.csv")
 std <- c("segi_doll", "who2001", "gbd2021", "who2026")
 stopifnot(all(abs(colSums(w[, ..std]) - 1e5) < 0.01))
 
-d <- fread(cmd = if (.Platform$OS.type == "windows") NULL else "gzip -dc 03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz")
+d <- fread(cmd = if (.Platform$OS.type == "windows") NULL else "gzip -dc data/raw/globocan_yasaozgu_2022_2024.csv.gz")
 n_ham <- nrow(d); d <- unique(d)                                         # kanser 39 satırları ham dosyada iki kez çekilmiş (birebir aynı kopyalar)
 cat("Ham satır:", n_ham, "· tekil satır:", nrow(d), "\n")
 stopifnot(!anyDuplicated(d, by = c("yil","olcut","cinsiyet","ulke_kodu","kanser_kodu","age_code")))
@@ -45,13 +44,13 @@ res <- rbindlist(lapply(c(2024, 2022), function(y) rbindlist(lapply(0:1, functio
              kayma20_R = sum(abs(ra - rb) >= 20))
 }))))))
 
-py <- fread("05_ciktilar/T2_sira_uyumu.csv")[std_a == "segi_doll" & std_b == "who2026"]
-meta <- fromJSON("03_veri_ham/globocan_meta_2022_2024.json")
+py <- fread("results/tables/T2_sira_uyumu.csv")[std_a == "segi_doll" & std_b == "who2026"]
+meta <- fromJSON("data/raw/globocan_meta_2022_2024.json")
 lab <- setNames(meta$meta2024$c$label, meta$meta2024$c$cancer)
 res[, kanser := lab[as.character(kanser_kodu)]][, olcut_ad := fifelse(olcut == 0, "insidans", "mortalite")]
 cmp <- merge(res, py[, .(yil, olcut_ad = olcut, kanser, rho_Py = rho, top10_Py = top10, kayma20_Py = kayma20)], by = c("yil", "olcut_ad", "kanser"))
 cmp[, `:=`(rho_fark = round(rho_R - rho_Py, 4), top10_fark = top10_R - top10_Py, kayma20_fark = kayma20_R - kayma20_Py)]
-fwrite(cmp, "05_ciktilar/R_tekrar_karsilastirma.csv")
+fwrite(cmp, "results/tables/R_tekrar_karsilastirma.csv")
 cat("Karşılaştırılan tabaka:", nrow(cmp), "\n")
 cat("ρ en büyük |fark|:", max(abs(cmp$rho_fark)), " · ilk-10 farklı:", sum(cmp$top10_fark != 0), " · ≥20 kayma farklı:", sum(cmp$kayma20_fark != 0), "\n")
 cat(if (max(abs(cmp$rho_fark)) < 1e-3 && all(cmp$top10_fark == 0)) "SONUÇ: Python ve R UYUMLU\n" else "SONUÇ: FARK VAR — inceleyin\n")

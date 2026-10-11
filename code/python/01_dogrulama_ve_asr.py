@@ -1,33 +1,28 @@
-"""
-01_dogrulama_ve_asr.py — Proje 1 (WHO 2026 standart nüfusu)
-Girdi : 03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz , 02_agirliklar/agirliklar_100bin_ANALIZ.csv
-Çıktı : 05_ciktilar/asr_dort_standart.csv.gz (ASR tam hassasiyet, 10.10.2026 düzeltmesi) , 05_ciktilar/dogrulama_raporu.txt
-İşlem : (1) 75-79, 80-84, 85+ gruplarını kümülatif aralıklardan fark alarak türetir
-        (2) yaş toplamlarını resmî 0_17 toplamıyla karşılaştırır
-        (3) Segi ASR'sini IARC'ın yayımladığı ASR ile karşılaştırır (geçiş kapısı)
-        (4) dört standartla ASR hesaplar
-Çalıştırma: python3 04_betikler/01_dogrulama_ve_asr.py   (proje kök klasöründen)
-"""
+"""01 — Data validation and age-standardised rates (ASRs) under the four main standards.
+Derives 75–79, 80–84 and 85+ by differencing cumulative age ranges, checks age sums against published totals,
+checks recomputed Segi–Doll ASRs against GLOBOCAN-published ASRs, and writes results/tables/asr_dort_standart.csv.gz.
+Run from the repository root: python3 code/python/01_dogrulama_ve_asr.py
+Comments in the code body are in Turkish."""
 import csv, gzip
 from collections import defaultdict
 
 STD = ["segi_doll", "who2001", "gbd2021", "who2026"]
 w = defaultdict(list)
-for r in csv.DictReader(open("02_agirliklar/agirliklar_100bin_ANALIZ.csv")):
+for r in csv.DictReader(open("data/weights/agirliklar_100bin_ANALIZ.csv")):
     for s in STD:
         w[s].append(float(r[s]))
 for s in STD:
     assert len(w[s]) == 18 and abs(sum(w[s]) - 100000) < 0.01, s
 
 cell = defaultdict(dict)
-with gzip.open("03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz", "rt") as f:
+with gzip.open("data/raw/globocan_yasaozgu_2022_2024.csv.gz", "rt") as f:
     for r in csv.DictReader(f):
         k = (r["yil"], r["olcut"], r["cinsiyet"], r["ulke_kodu"], r["kanser_kodu"])
         cell[k][int(r["age_code"])] = (int(r["vaka"]), int(r["nufus"]), float(r["asr_iarc"]))
 
 n = eksik = top_bozuk = negatif = sifir_nufus = 0
 maxfark = 0.0; maxfark_k = None; fark_gt_005 = 0
-out = gzip.open("05_ciktilar/asr_dort_standart.csv.gz", "wt", newline="")
+out = gzip.open("results/tables/asr_dort_standart.csv.gz", "wt", newline="")
 wr = csv.writer(out)
 wr.writerow(["yil", "olcut", "cinsiyet", "ulke_kodu", "kanser_kodu", "vaka_toplam", "nufus_toplam", "asr_iarc"] + ["asr_" + s for s in STD])
 for k, v in cell.items():
@@ -56,5 +51,5 @@ Sıfır nüfuslu yaş grubu (atlandı)  : {sifir_nufus}
 Segi ASR − IARC ASR  en büyük |fark|: {maxfark:.2f}  ({maxfark_k})
 |fark| > 0,05 olan hücre            : {fark_gt_005}
 """
-open("05_ciktilar/dogrulama_raporu.txt", "w").write(rapor)
+open("results/tables/dogrulama_raporu.txt", "w").write(rapor)
 print(rapor)

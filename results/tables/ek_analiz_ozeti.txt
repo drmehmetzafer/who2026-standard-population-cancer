@@ -1,0 +1,74 @@
+A1 incidence: release: Segi–Doll 2022 vs 2024: n=185 rho=0.906 (0.861746–0.936474) top10=8/10 ≥10=90 ≥20=54
+A1 incidence: Segi–Doll vs WHO 2000–2025: n=186 rho=0.998 (0.995885–0.998592) top10=9/10 ≥10=4 ≥20=0
+A1 incidence: Segi–Doll vs GBD 2021: n=186 rho=0.994 (0.99001–0.996262) top10=9/10 ≥10=16 ≥20=1
+A1 incidence: WHO 2000–2025 vs GBD 2021: n=186 rho=0.999 (0.997355–0.999054) top10=10/10 ≥10=2 ≥20=0
+A1 incidence: WHO 2000–2025 vs WHO 2026: n=186 rho=0.992 (0.986828–0.993968) top10=10/10 ≥10=24 ≥20=3
+A1 incidence: GBD 2021 vs WHO 2026: n=186 rho=0.996 (0.993354–0.996986) top10=10/10 ≥10=15 ≥20=0
+A1 incidence: Segi–Doll vs WHO 2026: n=186 rho=0.983 (0.973995–0.98834) top10=9/10 ≥10=44 ≥20=12
+A1 mortality: release: Segi–Doll 2022 vs 2024: n=185 rho=0.710 (0.608332–0.791794) top10=7/10 ≥10=114 ≥20=78
+A1 mortality: Segi–Doll vs WHO 2000–2025: n=186 rho=0.989 (0.981461–0.991566) top10=9/10 ≥10=47 ≥20=3
+A1 mortality: Segi–Doll vs GBD 2021: n=186 rho=0.964 (0.945354–0.973817) top10=8/10 ≥10=97 ≥20=40
+A1 mortality: WHO 2000–2025 vs GBD 2021: n=186 rho=0.992 (0.986605–0.993904) top10=9/10 ≥10=34 ≥20=1
+A1 mortality: WHO 2000–2025 vs WHO 2026: n=186 rho=0.953 (0.928087–0.967302) top10=7/10 ≥10=95 ≥20=43
+A1 mortality: GBD 2021 vs WHO 2026: n=186 rho=0.982 (0.969082–0.987634) top10=8/10 ≥10=58 ≥20=14
+A1 mortality: Segi–Doll vs WHO 2026: n=186 rho=0.902 (0.857315–0.929696) top10=6/10 ≥10=115 ≥20=79
+A1 incidence: Segi→WHO2026 ≥20-place movers exceed release-to-release movers in 0/14 strata; rho lower than release rho in 0/14
+A1 mortality: Segi→WHO2026 ≥20-place movers exceed release-to-release movers in 1/14 strata; rho lower than release rho in 0/14
+A1 size: all-cancer mortality (Segi–Doll 2024), ASR of rank r vs r+20: median relative difference 7.1% (IQR 5.9–13.6%); ranks 41–146: median 6.0%
+A2 incidence | death records (methods 1, 2a, 2b): n=89 rho=0.972 (0.951639–0.981792) ≥20 within tier=1; ≥20 in full ranking 7 (7.9%)
+A2 incidence | estimated from incidence (methods 3a–3c, 4): n=97 rho=0.974 (0.948214–0.986737) ≥20 within tier=2; ≥20 in full ranking 5 (5.2%)
+A2 mortality | death records (methods 1, 2a, 2b): n=89 rho=0.940 (0.899405–0.961843) ≥20 within tier=4; ≥20 in full ranking 37 (41.6%)
+A2 mortality | estimated from incidence (methods 3a–3c, 4): n=97 rho=0.963 (0.931661–0.976932) ≥20 within tier=2; ≥20 in full ranking 42 (43.3%)
+A2 all-cancer mortality: movers ≥20 by tier (death records / estimated): [37, 42]; non-movers: [52, 55]; Fisher p = 0.882
+A3 incidence: cumulative risk 0–74 vs Segi–Doll ASR: rho=0.987 top10=10 ≥20=11
+A3 incidence: cumulative risk 0–74 vs WHO 2026 ASR: rho=0.957 top10=9 ≥20=29
+A3 incidence: truncated ASR 0–74: Segi–Doll vs WHO 2026: rho=0.998 top10=10 ≥20=0
+A3 incidence: truncated ASR 0–84: Segi–Doll vs WHO 2026: rho=0.986 top10=9 ≥20=9
+A3 mortality: cumulative risk 0–74 vs Segi–Doll ASR: rho=0.957 top10=8 ≥20=39
+A3 mortality: cumulative risk 0–74 vs WHO 2026 ASR: rho=0.773 top10=5 ≥20=113
+A3 mortality: truncated ASR 0–74: Segi–Doll vs WHO 2026: rho=0.988 top10=9 ≥20=5
+A3 mortality: truncated ASR 0–84: Segi–Doll vs WHO 2026: rho=0.920 top10=6 ≥20=68
+A3 incidence: cumulative risk 0–74 agrees better with Segi–Doll than with WHO 2026 ASR in 14/14 strata
+A3 mortality: cumulative risk 0–74 agrees better with Segi–Doll than with WHO 2026 ASR in 14/14 strata
+A4 index 8: median change in M:F ASR ratio across 10 non-sex-specific sites × 2 measures ranged 0.950–1.088; share of countries with >5% change: 43.0–78.7%
+A5 ≥1 million (both-sexes population): both incidence n=158 rho=0.984
+A5 ≥1 million (both-sexes population): male incidence n=158 rho=0.984
+A5 ≥1 million (both-sexes population): female incidence n=158 rho=0.984
+A5 ≥1 million (both-sexes population): both mortality n=158 rho=0.911
+A5 ≥1 million (both-sexes population): male mortality n=158 rho=0.954
+A5 ≥1 million (both-sexes population): female mortality n=158 rho=0.808
+H2 registered model (share ≥60 × HDI group, Huber): 2024 insidans: slope (Very high HDI reference) -0.0006 (95% CI -0.0037 to +0.0024), bootstrap p = 0.643, n = 176
+H2 registered model (share ≥60 × HDI group, Huber): 2024 mortalite: slope (Very high HDI reference) +0.0111 (95% CI +0.0063 to +0.0153), bootstrap p = 0.001, n = 176
+H2 registered model (share ≥60 × HDI group, Huber): 2022 insidans: slope (Very high HDI reference) -0.0008 (95% CI -0.0054 to +0.0027), bootstrap p = 0.704, n = 176
+H2 registered model (share ≥60 × HDI group, Huber): 2022 mortalite: slope (Very high HDI reference) +0.0011 (95% CI -0.0056 to +0.0075), bootstrap p = 0.732, n = 176
+A6 share ≥60: Scandinavian 16.0%, European 2013 25.5%
+A6 incidence: Segi–Doll vs Scandinavian: rho=0.996 top10=9 ≥20=2
+A6 incidence: Segi–Doll vs European 2013: rho=0.980 top10=8 ≥20=16
+A6 incidence: European 2013 vs WHO 2026: rho=1.000 top10=9 ≥20=0
+A6 incidence: Scandinavian vs WHO 2026: rho=0.994 top10=10 ≥20=0
+A6 mortality: Segi–Doll vs Scandinavian: rho=0.980 top10=8 ≥20=19
+A6 mortality: Segi–Doll vs European 2013: rho=0.889 top10=6 ≥20=81
+A6 mortality: European 2013 vs WHO 2026: rho=0.999 top10=10 ≥20=0
+A6 mortality: Scandinavian vs WHO 2026: rho=0.967 top10=8 ≥20=31
+A7 incidence Africa: n=54 rho=0.956 max shift=20
+A7 incidence Asia: n=47 rho=0.974 max shift=12
+A7 incidence Europe: n=40 rho=0.925 max shift=17
+A7 incidence Latin America and the Caribbean: n=33 rho=0.855 max shift=11
+A7 incidence Oceania: n=10 rho=0.988 max shift=1
+A7 mortality Africa: n=54 rho=0.948 max shift=17
+A7 mortality Asia: n=47 rho=0.904 max shift=16
+A7 mortality Europe: n=40 rho=0.877 max shift=15
+A7 mortality Latin America and the Caribbean: n=33 rho=0.889 max shift=12
+A7 mortality Oceania: n=10 rho=0.927 max shift=2
+A8 incidence ages 0–64: rho=0.999 top10=9 ≥20=0
+A8 incidence ages 0–74: rho=0.998 top10=10 ≥20=0
+A8 incidence ages 0–79: rho=0.993 top10=10 ≥20=3
+A8 incidence ages 0–84: rho=0.986 top10=9 ≥20=9
+A8 incidence ages all ages: rho=0.983 top10=9 ≥20=12
+A8 mortality ages 0–64: rho=0.997 top10=9 ≥20=0
+A8 mortality ages 0–74: rho=0.988 top10=9 ≥20=5
+A8 mortality ages 0–79: rho=0.958 top10=7 ≥20=47
+A8 mortality ages 0–84: rho=0.920 top10=6 ≥20=68
+A8 mortality ages all ages: rho=0.902 top10=6 ≥20=79
+A10 H3 men: mortality ρ lower in 11/11 sites (CI excludes 0 in 9); sign test p = 0.0009766
+A10 H3 women: mortality ρ lower in 11/12 sites (CI excludes 0 in 8); sign test p = 0.006348

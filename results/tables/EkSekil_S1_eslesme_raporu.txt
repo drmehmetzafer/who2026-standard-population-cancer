@@ -1,0 +1,4 @@
+GLOBOCAN ülkeleri: 186
+Haritada eşleşmeyen GLOBOCAN ülkesi: 0 []
+A  Incidence: sınıf sayıları {'<1.5': 18, '1.5–1.6': 68, '1.6–1.7': 55, '1.7–1.8': 22, '1.8–1.9': 9, '1.9–2.0': 10, '≥2.0': 4}; ortanca 1.6101
+B  Mortality: sınıf sayıları {'<1.5': 8, '1.5–1.6': 25, '1.6–1.7': 44, '1.7–1.8': 27, '1.8–1.9': 15, '1.9–2.0': 25, '≥2.0': 42}; ortanca 1.7595

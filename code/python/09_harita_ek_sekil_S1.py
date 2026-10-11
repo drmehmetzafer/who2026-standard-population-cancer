@@ -1,16 +1,7 @@
-"""09_harita_ek_sekil_S1.py — Supplementary Figure S1: world map of the ASR ratio WHO 2026 / Segi–Doll
-(all cancers, both sexes, GLOBOCAN 2024), incidence and mortality. Proje kökünden çalıştırın.
-Girdi : 05_ciktilar/asr_dort_standart.csv.gz (01 betiğinin çıktısı), 03_veri_ham/globocan_meta_2022_2024.json,
-        01_kaynak_belgeler/harita/ne_50m_admin_0_countries.geojson (Natural Earth 1:50m, kamu malı;
-        SHA-256 3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb)
-Çıktı : 05_ciktilar/sekiller/EkSekil_S1_harita_ASR_orani.{pdf,png}, 05_ciktilar/EkSekil_S1_eslesme_raporu.txt
-Projeksiyon: Equal Earth (Šavrič, Patterson & Jenny 2018), kendi uygulaması (ek coğrafi paket gerekmez).
-Ülke eşleme: GLOBOCAN ISO3 ↔ Natural Earth ADM0_A3. Natural Earth'te farklı kodlu birimler:
-  SDS→SSD (Güney Sudan), PSX→PSE (Filistin), SOL→SOM (Somaliland; GLOBOCAN Somali nüfusu tüm ülkeyi kapsar),
-  CYN→CYP (Kuzey Kıbrıs; GLOBOCAN Kıbrıs nüfusu adanın tamamıdır, BM WPP tanımı).
-  Fransa (FRA) çoklu poligonu konuma göre ayrılır: Fransız Guyanası (GUF), Réunion (REU), Martinik (MTQ),
-  Guadeloupe (GLP) GLOBOCAN'da ayrı ülkedir. Kosova, Batı Sahra, Tayvan, Hong Kong, Makao, Grönland vb. tahmin yoktur → gri.
-"""
+"""09 — Supplementary Figure S1: world map of the ASR ratio WHO 2026/Segi–Doll (Equal Earth projection;
+Natural Earth 1:50m admin-0 boundaries, public domain, data/map/).
+Run from the repository root: python3 code/python/09_harita_ek_sekil_S1.py
+Comments in the code body are in Turkish."""
 import csv, gzip, json, os
 import numpy as np
 import logging, matplotlib; matplotlib.use("Agg"); logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)
@@ -18,7 +9,7 @@ import matplotlib.pyplot as plt
 from matplotlib.collections import PolyCollection
 from matplotlib.patches import Patch
 
-os.makedirs("05_ciktilar/sekiller", exist_ok=True)
+os.makedirs("results/tables/sekiller", exist_ok=True)
 INK, INK2, NODATA, EDGE = "#0b0b0b", "#52514e", "#e4e3df", "#ffffff"
 # sıralı tek renk (mavi) rampası; 7 sınıf, iki panelde ortak
 EDGES = [1.5, 1.6, 1.7, 1.8, 1.9, 2.0]
@@ -27,10 +18,10 @@ LABS = ["<1.5", "1.5–1.6", "1.6–1.7", "1.7–1.8", "1.8–1.9", "1.9–2.0",
 plt.rcParams.update({"font.family": ["Arial", "Liberation Sans", "DejaVu Sans"], "pdf.fonttype": 42, "font.size": 8})
 
 # ---- veri
-meta = json.load(open("03_veri_ham/globocan_meta_2022_2024.json"))["meta2024"]["p"]
+meta = json.load(open("data/raw/globocan_meta_2022_2024.json"))["meta2024"]["p"]
 ISO = {str(p["country"]): p["country_iso3"] for p in meta if "country_iso3" in p}
 ratio = {"0": {}, "1": {}}
-for r in csv.DictReader(gzip.open("05_ciktilar/asr_dort_standart.csv.gz", "rt")):
+for r in csv.DictReader(gzip.open("results/tables/asr_dort_standart.csv.gz", "rt")):
     if r["yil"] == "2024" and r["kanser_kodu"] == "39" and r["cinsiyet"] == "0":
         ratio[r["olcut"]][ISO[r["ulke_kodu"]]] = float(r["asr_who2026"]) / float(r["asr_segi_doll"])
 assert len(ratio["0"]) == len(ratio["1"]) == 186
@@ -55,7 +46,7 @@ def fr_part(ring):
     if -6 < lon < 10 and 41 < lat < 52: return "FRA"
     return None  # Mayotte vb. — GLOBOCAN'da ayrı tahmin yok
 
-geo = json.load(open("01_kaynak_belgeler/harita/ne_50m_admin_0_countries.geojson"))["features"]
+geo = json.load(open("data/map/ne_50m_admin_0_countries.geojson"))["features"]
 polys = []  # (iso3 or None, ring xy)
 for f in geo:
     code = f["properties"]["ADM0_A3"]
@@ -98,7 +89,7 @@ handles = [Patch(fc=c, ec="none", label=l) for c, l in zip(COLS, LABS)] + [Patch
 fig.legend(handles=handles, loc="lower center", ncol=8, frameon=False, fontsize=7.5, handlelength=1.4,
            columnspacing=1.0, title="ASR ratio, WHO 2026 / Segi–Doll", title_fontsize=8, bbox_to_anchor=(0.5, 0.0))
 fig.tight_layout(rect=(0, 0.06, 1, 1))
-fig.savefig("05_ciktilar/sekiller/EkSekil_S1_harita_ASR_orani.pdf")
-fig.savefig("05_ciktilar/sekiller/EkSekil_S1_harita_ASR_orani.png", dpi=300)
-open("05_ciktilar/EkSekil_S1_eslesme_raporu.txt", "w").write("\n".join(rep) + "\n")
+fig.savefig("results/figures/EkSekil_S1_harita_ASR_orani.pdf")
+fig.savefig("results/figures/EkSekil_S1_harita_ASR_orani.png", dpi=300)
+open("results/tables/EkSekil_S1_eslesme_raporu.txt", "w").write("\n".join(rep) + "\n")
 print("\n".join(rep))

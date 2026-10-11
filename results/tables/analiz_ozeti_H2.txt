@@ -1,0 +1,6 @@
+H2 [2024 insidans] Huber, ana etki (60+ % + HDI): eğim -0.0014 / 1 puan 60+ (%95 GA -0.0050–0.0018), bootstrap p = 0.35, n = 176, HDI eksik 10
+H2 [2024 mortalite] Huber, ana etki (60+ % + HDI): eğim 0.0086 / 1 puan 60+ (%95 GA 0.0027–0.0132), bootstrap p = 0.007, n = 176, HDI eksik 10
+Holm [2024]: H2_insidans p=0.643 → adjusted 0.643 · H2_mortalite p=0.001 → adjusted 0.003 · H3 p=0.00342 → adjusted 0.00684 · H4 p=7.45e-09 → adjusted 2.98e-08
+H2 [2022 insidans] Huber, ana etki (60+ % + HDI): eğim -0.0004 / 1 puan 60+ (%95 GA -0.0042–0.0027), bootstrap p = 0.809, n = 176, HDI eksik 9
+H2 [2022 mortalite] Huber, ana etki (60+ % + HDI): eğim 0.0019 / 1 puan 60+ (%95 GA -0.0041–0.0072), bootstrap p = 0.558, n = 176, HDI eksik 9
+Holm [2022]: H2_insidans p=0.704 → adjusted 1 · H2_mortalite p=0.732 → adjusted 1 · H3 p=0.00342 → adjusted 0.0103 · H4 p=7.45e-09 → adjusted 2.98e-08

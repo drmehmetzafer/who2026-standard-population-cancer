@@ -1,0 +1,113 @@
+site,measure,comparison,n,rho,top10,moved_ge10,moved_ge20
+All cancers,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.986606,10,32,11
+All cancers,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.957439,9,75,29
+All cancers,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998062,10,2,0
+All cancers,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.98644,9,33,9
+All cancers,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.956953,8,84,39
+All cancers,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.772604,5,138,113
+All cancers,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.988029,9,42,5
+All cancers,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.920464,6,119,68
+"Trachea, bronchus and lung",incidence,cumulative risk 0–74 vs Segi–Doll ASR,185,0.99732,10,5,0
+"Trachea, bronchus and lung",incidence,cumulative risk 0–74 vs WHO 2026 ASR,185,0.985626,7,54,3
+"Trachea, bronchus and lung",incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,185,0.9992,9,0,0
+"Trachea, bronchus and lung",incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,185,0.995959,8,12,0
+"Trachea, bronchus and lung",mortality,cumulative risk 0–74 vs Segi–Doll ASR,185,0.99675,9,7,0
+"Trachea, bronchus and lung",mortality,cumulative risk 0–74 vs WHO 2026 ASR,185,0.979861,8,66,15
+"Trachea, bronchus and lung",mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,185,0.998935,10,1,0
+"Trachea, bronchus and lung",mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,185,0.99431,10,18,0
+Breast,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.996567,9,12,1
+Breast,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.983856,8,35,10
+Breast,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998301,10,2,0
+Breast,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.992084,9,27,3
+Breast,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.988708,9,37,6
+Breast,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.874793,7,129,86
+Breast,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.996054,8,10,0
+Breast,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.963207,8,90,40
+Colorectum,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.993924,8,13,2
+Colorectum,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.977375,7,50,8
+Colorectum,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.999064,10,1,0
+Colorectum,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.994967,9,13,1
+Colorectum,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.970482,9,59,14
+Colorectum,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.915999,5,101,54
+Colorectum,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998392,10,1,0
+Colorectum,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.985355,9,42,9
+Prostate,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.945802,8,76,25
+Prostate,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.868722,3,109,54
+Prostate,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.999096,10,0,0
+Prostate,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.982323,7,41,13
+Prostate,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.925372,6,113,55
+Prostate,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.806916,5,135,98
+Prostate,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998637,10,3,0
+Prostate,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.984199,9,53,11
+Stomach,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.991619,9,25,2
+Stomach,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.973806,7,67,21
+Stomach,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998305,10,2,0
+Stomach,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.993544,9,21,3
+Stomach,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.985773,8,49,8
+Stomach,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.94987,7,103,45
+Stomach,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.998499,10,2,0
+Stomach,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.990204,9,34,3
+Thyroid,incidence,cumulative risk 0–74 vs Segi–Doll ASR,183,0.994049,10,14,2
+Thyroid,incidence,cumulative risk 0–74 vs WHO 2026 ASR,183,0.979352,7,32,13
+Thyroid,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,183,0.99821,10,2,0
+Thyroid,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,183,0.990705,9,26,7
+Thyroid,mortality,cumulative risk 0–74 vs Segi–Doll ASR,170,0.961625,9,51,20
+Thyroid,mortality,cumulative risk 0–74 vs WHO 2026 ASR,170,0.842737,7,116,72
+Thyroid,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,170,0.990261,9,27,4
+Thyroid,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,170,0.939143,8,89,34
+Liver and intrahepatic bile ducts,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.988479,10,40,8
+Liver and intrahepatic bile ducts,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.962575,9,73,30
+Liver and intrahepatic bile ducts,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.995584,9,14,0
+Liver and intrahepatic bile ducts,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.982936,10,53,10
+Liver and intrahepatic bile ducts,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.989044,10,38,3
+Liver and intrahepatic bile ducts,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.950295,9,94,38
+Liver and intrahepatic bile ducts,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.994955,9,14,2
+Liver and intrahepatic bile ducts,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.981974,10,65,10
+Bladder,incidence,cumulative risk 0–74 vs Segi–Doll ASR,184,0.991058,9,21,7
+Bladder,incidence,cumulative risk 0–74 vs WHO 2026 ASR,184,0.968581,7,75,24
+Bladder,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,184,0.998557,10,1,0
+Bladder,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,184,0.99476,8,15,0
+Bladder,mortality,cumulative risk 0–74 vs Segi–Doll ASR,182,0.957394,9,98,31
+Bladder,mortality,cumulative risk 0–74 vs WHO 2026 ASR,182,0.87277,6,133,92
+Bladder,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,182,0.998101,9,2,0
+Bladder,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,182,0.981953,8,67,9
+Cervix uteri,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.993417,8,16,0
+Cervix uteri,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.993204,9,21,1
+Cervix uteri,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.997147,8,7,0
+Cervix uteri,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.993503,8,23,1
+Cervix uteri,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.996406,9,8,0
+Cervix uteri,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.991263,8,30,1
+Cervix uteri,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.999068,8,0,0
+Cervix uteri,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.996832,9,8,0
+Non-Hodgkin lymphoma,incidence,cumulative risk 0–74 vs Segi–Doll ASR,185,0.993575,9,18,3
+Non-Hodgkin lymphoma,incidence,cumulative risk 0–74 vs WHO 2026 ASR,185,0.984794,9,37,6
+Non-Hodgkin lymphoma,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,185,0.995743,9,13,1
+Non-Hodgkin lymphoma,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,185,0.988757,8,32,6
+Non-Hodgkin lymphoma,mortality,cumulative risk 0–74 vs Segi–Doll ASR,184,0.958989,9,71,28
+Non-Hodgkin lymphoma,mortality,cumulative risk 0–74 vs WHO 2026 ASR,184,0.816613,4,116,72
+Non-Hodgkin lymphoma,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,184,0.984508,9,53,8
+Non-Hodgkin lymphoma,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,184,0.916941,9,95,53
+Pancreas,incidence,cumulative risk 0–74 vs Segi–Doll ASR,185,0.991996,9,22,3
+Pancreas,incidence,cumulative risk 0–74 vs WHO 2026 ASR,185,0.973405,9,58,21
+Pancreas,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,185,0.998588,10,0,0
+Pancreas,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,185,0.994426,9,19,1
+Pancreas,mortality,cumulative risk 0–74 vs Segi–Doll ASR,185,0.992068,9,21,3
+Pancreas,mortality,cumulative risk 0–74 vs WHO 2026 ASR,185,0.971836,7,73,23
+Pancreas,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,185,0.998351,9,0,0
+Pancreas,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,185,0.994261,8,18,1
+Oesophagus,incidence,cumulative risk 0–74 vs Segi–Doll ASR,184,0.99188,10,28,4
+Oesophagus,incidence,cumulative risk 0–74 vs WHO 2026 ASR,184,0.965558,10,73,20
+Oesophagus,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,184,0.998124,10,3,0
+Oesophagus,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,184,0.991532,9,28,1
+Oesophagus,mortality,cumulative risk 0–74 vs Segi–Doll ASR,184,0.987217,10,35,8
+Oesophagus,mortality,cumulative risk 0–74 vs WHO 2026 ASR,184,0.950536,9,84,33
+Oesophagus,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,184,0.998241,10,1,0
+Oesophagus,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,184,0.989652,9,32,5
+Leukaemia,incidence,cumulative risk 0–74 vs Segi–Doll ASR,186,0.974945,9,56,22
+Leukaemia,incidence,cumulative risk 0–74 vs WHO 2026 ASR,186,0.96489,9,64,32
+Leukaemia,incidence,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.984699,9,45,13
+Leukaemia,incidence,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.972623,9,60,26
+Leukaemia,mortality,cumulative risk 0–74 vs Segi–Doll ASR,186,0.960761,10,76,28
+Leukaemia,mortality,cumulative risk 0–74 vs WHO 2026 ASR,186,0.860293,5,112,79
+Leukaemia,mortality,truncated ASR 0–74: Segi–Doll vs WHO 2026,186,0.963705,10,85,43
+Leukaemia,mortality,truncated ASR 0–84: Segi–Doll vs WHO 2026,186,0.901006,7,109,72

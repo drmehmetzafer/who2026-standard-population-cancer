@@ -1,0 +1,29 @@
+site,measure,rho_full,moved_ge20,rho_truncated_0_74,recommendation
+All cancers,incidence,0.983,12,0.998,rankings comparable across standards
+All cancers,mortality,0.902,79,0.988,state the standard; report rankings of truncated (0–74) rates alongside
+"Trachea, bronchus and lung",incidence,0.993,1,0.999,rankings comparable across standards
+"Trachea, bronchus and lung",mortality,0.99,2,0.999,rankings comparable across standards
+Breast,incidence,0.987,8,0.998,rankings comparable across standards
+Breast,mortality,0.912,71,0.996,state the standard; report rankings of truncated (0–74) rates alongside
+Colorectum,incidence,0.992,4,0.999,rankings comparable across standards
+Colorectum,mortality,0.98,17,0.998,state the standard; report rankings of truncated (0–74) rates alongside
+Prostate,incidence,0.978,16,0.999,state the standard; report rankings of truncated (0–74) rates alongside
+Prostate,mortality,0.96,33,0.999,state the standard; report rankings of truncated (0–74) rates alongside
+Stomach,incidence,0.991,2,0.998,rankings comparable across standards
+Stomach,mortality,0.985,9,0.998,rankings comparable across standards
+Thyroid,incidence,0.984,11,0.998,rankings comparable across standards
+Thyroid,mortality,0.909,53,0.99,state the standard; report rankings of truncated (0–74) rates alongside
+Liver and intrahepatic bile ducts,incidence,0.977,13,0.996,rankings comparable across standards
+Liver and intrahepatic bile ducts,mortality,0.971,19,0.995,state the standard; report rankings of truncated (0–74) rates alongside
+Bladder,incidence,0.989,3,0.999,rankings comparable across standards
+Bladder,mortality,0.97,24,0.998,state the standard; report rankings of truncated (0–74) rates alongside
+Cervix uteri,incidence,0.992,1,0.997,rankings comparable across standards
+Cervix uteri,mortality,0.995,0,0.999,rankings comparable across standards
+Non-Hodgkin lymphoma,incidence,0.986,9,0.996,rankings comparable across standards
+Non-Hodgkin lymphoma,mortality,0.92,52,0.985,state the standard; report rankings of truncated (0–74) rates alongside
+Pancreas,incidence,0.991,4,0.999,rankings comparable across standards
+Pancreas,mortality,0.991,5,0.998,rankings comparable across standards
+Oesophagus,incidence,0.984,7,0.998,rankings comparable across standards
+Oesophagus,mortality,0.982,12,0.998,rankings comparable across standards
+Leukaemia,incidence,0.965,29,0.985,state the standard; report rankings of truncated (0–74) rates alongside
+Leukaemia,mortality,0.874,76,0.964,state the standard; report rankings under both standards (truncation does not stabilise the ranking)

@@ -1,0 +1,57 @@
+site,measure,tier,n,rho_within_tier,rho_lo,rho_hi,moved_ge10_within_tier,moved_ge20_within_tier,moved_ge20_in_full_ranking,share_moved_ge20_full
+All cancers,incidence,"death records (methods 1, 2a, 2b)",89,0.972438,0.951639,0.981792,12,1,7,0.078652
+All cancers,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.97445,0.948214,0.986737,8,2,5,0.051546
+All cancers,mortality,"death records (methods 1, 2a, 2b)",89,0.940364,0.899405,0.961843,23,4,37,0.41573
+All cancers,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.962616,0.931661,0.976932,22,2,42,0.43299
+"Trachea, bronchus and lung",incidence,"death records (methods 1, 2a, 2b)",89,0.98049,,,6,0,0,0.0
+"Trachea, bronchus and lung",incidence,"estimated from incidence (methods 3a–3c, 4)",96,0.990491,,,3,0,1,0.010417
+"Trachea, bronchus and lung",mortality,"death records (methods 1, 2a, 2b)",89,0.974311,,,10,0,1,0.011236
+"Trachea, bronchus and lung",mortality,"estimated from incidence (methods 3a–3c, 4)",96,0.989813,,,1,0,1,0.010417
+Breast,incidence,"death records (methods 1, 2a, 2b)",89,0.988985,,,3,0,4,0.044944
+Breast,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.979158,,,7,2,4,0.041237
+Breast,mortality,"death records (methods 1, 2a, 2b)",89,0.938219,,,26,4,33,0.370787
+Breast,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.947507,,,18,6,38,0.391753
+Colorectum,incidence,"death records (methods 1, 2a, 2b)",89,0.982993,,,4,1,1,0.011236
+Colorectum,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.987232,,,6,1,3,0.030928
+Colorectum,mortality,"death records (methods 1, 2a, 2b)",89,0.976847,,,6,0,3,0.033708
+Colorectum,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.977554,,,9,1,14,0.14433
+Prostate,incidence,"death records (methods 1, 2a, 2b)",89,0.918641,,,21,5,12,0.134831
+Prostate,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.983405,,,9,0,4,0.041237
+Prostate,mortality,"death records (methods 1, 2a, 2b)",89,0.970752,,,9,2,14,0.157303
+Prostate,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.983076,,,8,0,19,0.195876
+Stomach,incidence,"death records (methods 1, 2a, 2b)",89,0.989513,,,3,0,0,0.0
+Stomach,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.987797,,,6,0,2,0.020619
+Stomach,mortality,"death records (methods 1, 2a, 2b)",89,0.988492,,,3,0,4,0.044944
+Stomach,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.988047,,,6,0,5,0.051546
+Thyroid,incidence,"death records (methods 1, 2a, 2b)",87,0.952541,,,14,4,7,0.08046
+Thyroid,incidence,"estimated from incidence (methods 3a–3c, 4)",96,0.992811,,,2,0,4,0.041667
+Thyroid,mortality,"death records (methods 1, 2a, 2b)",86,0.955054,,,10,4,24,0.27907
+Thyroid,mortality,"estimated from incidence (methods 3a–3c, 4)",84,0.972704,,,6,1,29,0.345238
+Liver and intrahepatic bile ducts,incidence,"death records (methods 1, 2a, 2b)",89,0.975741,,,9,0,7,0.078652
+Liver and intrahepatic bile ducts,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.986232,,,5,0,6,0.061856
+Liver and intrahepatic bile ducts,mortality,"death records (methods 1, 2a, 2b)",89,0.972812,,,12,0,7,0.078652
+Liver and intrahepatic bile ducts,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.987205,,,5,0,12,0.123711
+Bladder,incidence,"death records (methods 1, 2a, 2b)",88,0.990384,,,0,0,3,0.034091
+Bladder,incidence,"estimated from incidence (methods 3a–3c, 4)",96,0.988416,,,5,0,0,0.0
+Bladder,mortality,"death records (methods 1, 2a, 2b)",88,0.980064,,,7,0,9,0.102273
+Bladder,mortality,"estimated from incidence (methods 3a–3c, 4)",94,0.979858,,,7,0,15,0.159574
+Cervix uteri,incidence,"death records (methods 1, 2a, 2b)",89,0.986687,,,3,0,1,0.011236
+Cervix uteri,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.9924,,,1,0,0,0.0
+Cervix uteri,mortality,"death records (methods 1, 2a, 2b)",89,0.993701,,,0,0,0,0.0
+Cervix uteri,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.99261,,,3,0,0,0.0
+Non-Hodgkin lymphoma,incidence,"death records (methods 1, 2a, 2b)",89,0.984372,,,8,0,5,0.05618
+Non-Hodgkin lymphoma,incidence,"estimated from incidence (methods 3a–3c, 4)",96,0.979829,,,9,1,4,0.041667
+Non-Hodgkin lymphoma,mortality,"death records (methods 1, 2a, 2b)",89,0.896765,,,36,10,27,0.303371
+Non-Hodgkin lymphoma,mortality,"estimated from incidence (methods 3a–3c, 4)",95,0.956607,,,13,4,25,0.263158
+Pancreas,incidence,"death records (methods 1, 2a, 2b)",89,0.981597,,,6,0,0,0.0
+Pancreas,incidence,"estimated from incidence (methods 3a–3c, 4)",96,0.985689,,,5,0,4,0.041667
+Pancreas,mortality,"death records (methods 1, 2a, 2b)",89,0.978703,,,7,0,1,0.011236
+Pancreas,mortality,"estimated from incidence (methods 3a–3c, 4)",96,0.983993,,,6,1,4,0.041667
+Oesophagus,incidence,"death records (methods 1, 2a, 2b)",89,0.97002,,,10,0,5,0.05618
+Oesophagus,incidence,"estimated from incidence (methods 3a–3c, 4)",95,0.98652,,,4,1,2,0.021053
+Oesophagus,mortality,"death records (methods 1, 2a, 2b)",89,0.966922,,,13,1,9,0.101124
+Oesophagus,mortality,"estimated from incidence (methods 3a–3c, 4)",95,0.984714,,,4,1,3,0.031579
+Leukaemia,incidence,"death records (methods 1, 2a, 2b)",89,0.926864,,,21,6,18,0.202247
+Leukaemia,incidence,"estimated from incidence (methods 3a–3c, 4)",97,0.97566,,,14,0,11,0.113402
+Leukaemia,mortality,"death records (methods 1, 2a, 2b)",89,0.744314,,,60,32,48,0.539326
+Leukaemia,mortality,"estimated from incidence (methods 3a–3c, 4)",97,0.968178,,,13,1,28,0.28866

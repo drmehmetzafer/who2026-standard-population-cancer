@@ -1,0 +1,21 @@
+H1: WHO2026/Segi > 1 olan hücre 63541/63748 (99.68%) [60+ yaşta vakası olan tüm hücreler]
+H3 [2024]: 13 bölgenin 12'ünde ρ_insidans > ρ_mortalite; işaret testi p = 0.003418
+H4 [2024]: 28 tabakanın 28'ünde ρ(Segi,WHO2026) < mevcut standart çiftlerinin en düşük ρ'su; işaret testi p = 7.451e-09
+H3 [2022]: 13 bölgenin 12'ünde ρ_insidans > ρ_mortalite; işaret testi p = 0.003418
+H4 [2022]: 28 tabakanın 28'ünde ρ(Segi,WHO2026) < mevcut standart çiftlerinin en düşük ρ'su; işaret testi p = 7.451e-09
+H2 [2024 insidans]: ρ(ASR oranı, 60+ payı) = 0.326 (%95 GA 0.206–0.438), p = 5.62e-06, n = 186
+H2 [2024 mortalite]: ρ(ASR oranı, 60+ payı) = 0.628 (%95 GA 0.545–0.696), p = 8.52e-22, n = 186
+H2 [2022 insidans]: ρ(ASR oranı, 60+ payı) = 0.328 (%95 GA 0.187–0.455), p = 5.28e-06, n = 185
+H2 [2022 mortalite]: ρ(ASR oranı, 60+ payı) = 0.599 (%95 GA 0.493–0.691), p = 2.1e-19, n = 185
+H5 [2024 insidans her_iki]: en sık kanseri değişen ülke 50/186 (26.9%, Wilson %95 GA 21.0–33.7)
+H5 [2024 insidans erkek]: en sık kanseri değişen ülke 17/186 (9.1%, Wilson %95 GA 5.8–14.1)
+H5 [2024 insidans kadin]: en sık kanseri değişen ülke 6/186 (3.2%, Wilson %95 GA 1.5–6.9)
+H5 [2024 mortalite her_iki]: en sık kanseri değişen ülke 47/186 (25.3%, Wilson %95 GA 19.6–32.0)
+H5 [2024 mortalite erkek]: en sık kanseri değişen ülke 19/186 (10.2%, Wilson %95 GA 6.6–15.4)
+H5 [2024 mortalite kadin]: en sık kanseri değişen ülke 18/186 (9.7%, Wilson %95 GA 6.2–14.8)
+H5 [2022 insidans her_iki]: en sık kanseri değişen ülke 48/185 (25.9%, Wilson %95 GA 20.2–32.7)
+H5 [2022 insidans erkek]: en sık kanseri değişen ülke 9/185 (4.9%, Wilson %95 GA 2.6–9.0)
+H5 [2022 insidans kadin]: en sık kanseri değişen ülke 6/185 (3.2%, Wilson %95 GA 1.5–6.9)
+H5 [2022 mortalite her_iki]: en sık kanseri değişen ülke 45/185 (24.3%, Wilson %95 GA 18.7–31.0)
+H5 [2022 mortalite erkek]: en sık kanseri değişen ülke 23/185 (12.4%, Wilson %95 GA 8.4–18.0)
+H5 [2022 mortalite kadin]: en sık kanseri değişen ülke 17/185 (9.2%, Wilson %95 GA 5.8–14.2)

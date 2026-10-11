@@ -1,0 +1,141 @@
+site,measure,ages,n,rho,top10,moved_ge20
+All cancers,incidence,0–64,186,0.998933,9,0
+All cancers,incidence,0–74,186,0.998062,10,0
+All cancers,incidence,0–79,186,0.993107,10,3
+All cancers,incidence,0–84,186,0.98644,9,9
+All cancers,incidence,all ages,186,0.983272,9,12
+All cancers,mortality,0–64,186,0.997438,9,0
+All cancers,mortality,0–74,186,0.988029,9,5
+All cancers,mortality,0–79,186,0.957911,7,47
+All cancers,mortality,0–84,186,0.920464,6,68
+All cancers,mortality,all ages,186,0.901532,6,79
+"Trachea, bronchus and lung",incidence,0–64,185,0.999702,9,0
+"Trachea, bronchus and lung",incidence,0–74,185,0.9992,9,0
+"Trachea, bronchus and lung",incidence,0–79,185,0.998057,8,0
+"Trachea, bronchus and lung",incidence,0–84,185,0.995959,8,0
+"Trachea, bronchus and lung",incidence,all ages,185,0.992696,7,1
+"Trachea, bronchus and lung",mortality,0–64,185,0.999731,10,0
+"Trachea, bronchus and lung",mortality,0–74,185,0.998935,10,0
+"Trachea, bronchus and lung",mortality,0–79,185,0.997229,9,0
+"Trachea, bronchus and lung",mortality,0–84,185,0.99431,10,0
+"Trachea, bronchus and lung",mortality,all ages,185,0.990211,9,2
+Breast,incidence,0–64,186,0.999465,10,0
+Breast,incidence,0–74,186,0.998301,10,0
+Breast,incidence,0–79,186,0.995789,9,0
+Breast,incidence,0–84,186,0.992084,9,3
+Breast,incidence,all ages,186,0.986657,8,8
+Breast,mortality,0–64,186,0.999366,10,0
+Breast,mortality,0–74,186,0.996054,8,0
+Breast,mortality,0–79,186,0.98493,9,6
+Breast,mortality,0–84,186,0.963207,8,40
+Breast,mortality,all ages,186,0.91191,7,71
+Colorectum,incidence,0–64,186,0.999547,9,0
+Colorectum,incidence,0–74,186,0.999064,10,0
+Colorectum,incidence,0–79,186,0.997676,9,1
+Colorectum,incidence,0–84,186,0.994967,9,1
+Colorectum,incidence,all ages,186,0.992037,9,4
+Colorectum,mortality,0–64,186,0.999172,9,0
+Colorectum,mortality,0–74,186,0.998392,10,0
+Colorectum,mortality,0–79,186,0.995097,9,0
+Colorectum,mortality,0–84,186,0.985355,9,9
+Colorectum,mortality,all ages,186,0.980482,6,17
+Prostate,incidence,0–64,186,0.999916,10,0
+Prostate,incidence,0–74,186,0.999096,10,0
+Prostate,incidence,0–79,186,0.994443,8,2
+Prostate,incidence,0–84,186,0.982323,7,13
+Prostate,incidence,all ages,186,0.977957,5,16
+Prostate,mortality,0–64,186,0.999819,10,0
+Prostate,mortality,0–74,186,0.998637,10,0
+Prostate,mortality,0–79,186,0.995711,8,0
+Prostate,mortality,0–84,186,0.984199,9,11
+Prostate,mortality,all ages,186,0.960183,9,33
+Stomach,incidence,0–64,186,0.999032,10,0
+Stomach,incidence,0–74,186,0.998305,10,0
+Stomach,incidence,0–79,186,0.996481,9,1
+Stomach,incidence,0–84,186,0.993544,9,3
+Stomach,incidence,all ages,186,0.990728,8,2
+Stomach,mortality,0–64,186,0.999293,10,0
+Stomach,mortality,0–74,186,0.998499,10,0
+Stomach,mortality,0–79,186,0.995375,9,1
+Stomach,mortality,0–84,186,0.990204,9,3
+Stomach,mortality,all ages,186,0.984857,9,9
+Thyroid,incidence,0–64,183,0.999489,10,0
+Thyroid,incidence,0–74,183,0.99821,10,0
+Thyroid,incidence,0–79,183,0.994556,9,2
+Thyroid,incidence,0–84,183,0.990705,9,7
+Thyroid,incidence,all ages,183,0.984245,7,11
+Thyroid,mortality,0–64,170,0.998346,9,0
+Thyroid,mortality,0–74,170,0.990261,9,4
+Thyroid,mortality,0–79,170,0.967348,8,23
+Thyroid,mortality,0–84,170,0.939143,8,34
+Thyroid,mortality,all ages,170,0.908589,6,53
+Liver and intrahepatic bile ducts,incidence,0–64,186,0.998501,9,0
+Liver and intrahepatic bile ducts,incidence,0–74,186,0.995584,9,0
+Liver and intrahepatic bile ducts,incidence,0–79,186,0.989892,10,3
+Liver and intrahepatic bile ducts,incidence,0–84,186,0.982936,10,10
+Liver and intrahepatic bile ducts,incidence,all ages,186,0.977222,9,13
+Liver and intrahepatic bile ducts,mortality,0–64,186,0.998678,10,0
+Liver and intrahepatic bile ducts,mortality,0–74,186,0.994955,9,2
+Liver and intrahepatic bile ducts,mortality,0–79,186,0.989163,10,6
+Liver and intrahepatic bile ducts,mortality,0–84,186,0.981974,10,10
+Liver and intrahepatic bile ducts,mortality,all ages,186,0.970579,9,19
+Bladder,incidence,0–64,184,0.99928,10,0
+Bladder,incidence,0–74,184,0.998557,10,0
+Bladder,incidence,0–79,184,0.997476,10,0
+Bladder,incidence,0–84,184,0.99476,8,0
+Bladder,incidence,all ages,184,0.989224,7,3
+Bladder,mortality,0–64,182,0.999556,9,0
+Bladder,mortality,0–74,182,0.998101,9,0
+Bladder,mortality,0–79,182,0.992973,9,2
+Bladder,mortality,0–84,182,0.981953,8,9
+Bladder,mortality,all ages,182,0.970273,7,24
+Cervix uteri,incidence,0–64,186,0.998944,10,0
+Cervix uteri,incidence,0–74,186,0.997147,8,0
+Cervix uteri,incidence,0–79,186,0.99566,8,1
+Cervix uteri,incidence,0–84,186,0.993503,8,1
+Cervix uteri,incidence,all ages,186,0.991957,8,1
+Cervix uteri,mortality,0–64,186,0.999696,10,0
+Cervix uteri,mortality,0–74,186,0.999068,8,0
+Cervix uteri,mortality,0–79,186,0.998096,10,0
+Cervix uteri,mortality,0–84,186,0.996832,9,0
+Cervix uteri,mortality,all ages,186,0.995079,9,0
+Non-Hodgkin lymphoma,incidence,0–64,185,0.996556,10,1
+Non-Hodgkin lymphoma,incidence,0–74,185,0.995743,9,1
+Non-Hodgkin lymphoma,incidence,0–79,185,0.993061,8,2
+Non-Hodgkin lymphoma,incidence,0–84,185,0.988757,8,6
+Non-Hodgkin lymphoma,incidence,all ages,185,0.986094,8,9
+Non-Hodgkin lymphoma,mortality,0–64,184,0.994645,10,1
+Non-Hodgkin lymphoma,mortality,0–74,184,0.984508,9,8
+Non-Hodgkin lymphoma,mortality,0–79,184,0.945025,9,42
+Non-Hodgkin lymphoma,mortality,0–84,184,0.916941,9,53
+Non-Hodgkin lymphoma,mortality,all ages,184,0.919892,4,52
+Pancreas,incidence,0–64,185,0.999513,10,0
+Pancreas,incidence,0–74,185,0.998588,10,0
+Pancreas,incidence,0–79,185,0.997356,9,0
+Pancreas,incidence,0–84,185,0.994426,9,1
+Pancreas,incidence,all ages,185,0.991109,9,4
+Pancreas,mortality,0–64,185,0.999394,10,0
+Pancreas,mortality,0–74,185,0.998351,9,0
+Pancreas,mortality,0–79,185,0.997074,10,0
+Pancreas,mortality,0–84,185,0.994261,8,1
+Pancreas,mortality,all ages,185,0.990611,8,5
+Oesophagus,incidence,0–64,184,0.999218,10,0
+Oesophagus,incidence,0–74,184,0.998124,10,0
+Oesophagus,incidence,0–79,184,0.995336,9,0
+Oesophagus,incidence,0–84,184,0.991532,9,1
+Oesophagus,incidence,all ages,184,0.984238,10,7
+Oesophagus,mortality,0–64,184,0.999426,10,0
+Oesophagus,mortality,0–74,184,0.998241,10,0
+Oesophagus,mortality,0–79,184,0.994722,9,1
+Oesophagus,mortality,0–84,184,0.989652,9,5
+Oesophagus,mortality,all ages,184,0.981676,9,12
+Leukaemia,incidence,0–64,186,0.989402,9,6
+Leukaemia,incidence,0–74,186,0.984699,9,13
+Leukaemia,incidence,0–79,186,0.980284,9,20
+Leukaemia,incidence,0–84,186,0.972623,9,26
+Leukaemia,incidence,all ages,186,0.965272,9,29
+Leukaemia,mortality,0–64,186,0.989422,9,6
+Leukaemia,mortality,0–74,186,0.963705,10,43
+Leukaemia,mortality,0–79,186,0.933246,8,64
+Leukaemia,mortality,0–84,186,0.901006,7,72
+Leukaemia,mortality,all ages,186,0.874284,5,76

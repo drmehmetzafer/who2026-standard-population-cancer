@@ -1,0 +1,3 @@
+60+ payı: segi_doll 11.0%, who2001 11.9%, gbd2021 12.6%, who2026 20.1%
+insidans: n=186 rho=0.983272 ≥20=12 top10=9
+mortalite: n=186 rho=0.901532 ≥20=79 top10=6

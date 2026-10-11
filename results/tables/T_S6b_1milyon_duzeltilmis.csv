@@ -1,0 +1,65 @@
+year,site,sex,measure,n,rho
+2024,All cancers,both,incidence,158,0.983914
+2024,All cancers,male,incidence,158,0.98424
+2024,All cancers,female,incidence,158,0.984076
+2024,All cancers,both,mortality,158,0.910813
+2024,All cancers,male,mortality,158,0.953791
+2024,All cancers,female,mortality,158,0.808424
+2024,"Trachea, bronchus and lung",both,incidence,158,0.992701
+2024,"Trachea, bronchus and lung",both,mortality,158,0.989649
+2024,Breast,female,incidence,158,0.986717
+2024,Breast,female,mortality,158,0.910944
+2024,Colorectum,both,incidence,158,0.991986
+2024,Colorectum,both,mortality,158,0.98421
+2024,Prostate,male,incidence,158,0.977988
+2024,Prostate,male,mortality,158,0.962544
+2024,Stomach,both,incidence,158,0.992114
+2024,Stomach,both,mortality,158,0.985725
+2024,Thyroid,both,incidence,158,0.981687
+2024,Thyroid,both,mortality,154,0.922002
+2024,Liver and intrahepatic bile ducts,both,incidence,158,0.982615
+2024,Liver and intrahepatic bile ducts,both,mortality,158,0.977188
+2024,Bladder,both,incidence,158,0.991408
+2024,Bladder,both,mortality,158,0.971395
+2024,Cervix uteri,female,incidence,158,0.992619
+2024,Cervix uteri,female,mortality,158,0.994907
+2024,Non-Hodgkin lymphoma,both,incidence,158,0.986814
+2024,Non-Hodgkin lymphoma,both,mortality,158,0.933939
+2024,Pancreas,both,incidence,158,0.989869
+2024,Pancreas,both,mortality,158,0.989254
+2024,Oesophagus,both,incidence,158,0.985828
+2024,Oesophagus,both,mortality,158,0.98361
+2024,Leukaemia,both,incidence,158,0.977778
+2024,Leukaemia,both,mortality,158,0.879755
+2022,All cancers,both,incidence,158,0.989096
+2022,All cancers,male,incidence,158,0.991539
+2022,All cancers,female,incidence,158,0.988393
+2022,All cancers,both,mortality,158,0.925319
+2022,All cancers,male,mortality,158,0.967357
+2022,All cancers,female,mortality,158,0.861625
+2022,"Trachea, bronchus and lung",both,incidence,158,0.99421
+2022,"Trachea, bronchus and lung",both,mortality,158,0.989403
+2022,Breast,female,incidence,158,0.993483
+2022,Breast,female,mortality,158,0.93588
+2022,Colorectum,both,incidence,158,0.99467
+2022,Colorectum,both,mortality,158,0.987346
+2022,Prostate,male,incidence,158,0.991189
+2022,Prostate,male,mortality,158,0.985308
+2022,Stomach,both,incidence,158,0.991168
+2022,Stomach,both,mortality,158,0.986035
+2022,Thyroid,both,incidence,158,0.992093
+2022,Thyroid,both,mortality,156,0.956438
+2022,Liver and intrahepatic bile ducts,both,incidence,158,0.971048
+2022,Liver and intrahepatic bile ducts,both,mortality,158,0.964214
+2022,Bladder,both,incidence,158,0.991311
+2022,Bladder,both,mortality,158,0.970847
+2022,Cervix uteri,female,incidence,158,0.994606
+2022,Cervix uteri,female,mortality,158,0.99449
+2022,Non-Hodgkin lymphoma,both,incidence,158,0.986151
+2022,Non-Hodgkin lymphoma,both,mortality,158,0.89306
+2022,Pancreas,both,incidence,158,0.991189
+2022,Pancreas,both,mortality,158,0.990909
+2022,Oesophagus,both,incidence,158,0.986866
+2022,Oesophagus,both,mortality,158,0.984873
+2022,Leukaemia,both,incidence,158,0.982494
+2022,Leukaemia,both,mortality,158,0.878709

@@ -1,11 +1,7 @@
-"""
-02_ana_analiz.py — Proje 1 · OSF ön kaydını (10.10.2026 18:29 TSİ, osf.io/stb6m) birebir uygular. Çıktı hassasiyeti 6 ondalık (10.10.2026 düzeltmesi; sonuçlar 4 ondalıklı önceki çalıştırmayla birebir aynı).
-Girdi : 03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz , 03_veri_ham/globocan_meta_2022_2024.json ,
-        02_agirliklar/agirliklar_100bin_ANALIZ.csv
-Çıktı : 05_ciktilar/T*_*.csv , 05_ciktilar/analiz_ozeti.txt
-Çalıştırma (proje kökünden): python3 04_betikler/02_ana_analiz.py
-Not   : HDI gerektiren H2 regresyonu ayrı betikte (03_h2_hdi.py), HDI dosyası gelince.
-"""
+"""02 — Main preregistered analysis (OSF doi:10.17605/OSF.IO/STB6M): rank agreement for all pairs of standards (T2),
+H1, H3, H4 and H5, with 2,000 country bootstrap resamples (seed 20261010). Writes results/tables/T2_*.csv, T_H3_*.csv, T_H4_*.csv, T3_*.csv.
+Run from the repository root: python3 code/python/02_ana_analiz.py
+Comments in the code body are in Turkish."""
 import csv, gzip, json, math
 from collections import defaultdict
 import numpy as np
@@ -15,16 +11,16 @@ RNG = np.random.default_rng(20261010)
 B = 2000
 STD = ["segi_doll", "who2001", "gbd2021", "who2026"]
 PAIRS = [(a, b) for i, a in enumerate(STD) for b in STD[i + 1:]]
-OUT = "05_ciktilar/"
+OUT = "results/tables/"
 
 # ---------- ağırlıklar ----------
 W = {s: [] for s in STD}
-for r in csv.DictReader(open("02_agirliklar/agirliklar_100bin_ANALIZ.csv")):
+for r in csv.DictReader(open("data/weights/agirliklar_100bin_ANALIZ.csv")):
     for s in STD: W[s].append(float(r[s]))
 W = {s: np.array(v) for s, v in W.items()}
 
 # ---------- meta ----------
-meta = json.load(open("03_veri_ham/globocan_meta_2022_2024.json"))
+meta = json.load(open("data/raw/globocan_meta_2022_2024.json"))
 SITE = {str(x["cancer"]): x["label"] for x in meta["meta2024"]["c"]}
 CTRY = {}
 for y in ("2022", "2024"):
@@ -35,7 +31,7 @@ def ckey(c): return CHINA.get(c, c)
 
 # ---------- ham veri → yaşa özgü vektörler ----------
 raw = defaultdict(dict)
-with gzip.open("03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz", "rt") as f:
+with gzip.open("data/raw/globocan_yasaozgu_2022_2024.csv.gz", "rt") as f:
     for r in csv.DictReader(f):
         raw[(r["yil"], r["olcut"], r["cinsiyet"], ckey(r["ulke_kodu"]), r["kanser_kodu"])][int(r["age_code"])] = (int(r["vaka"]), int(r["nufus"]))
 CELL = {}

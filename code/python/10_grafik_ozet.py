@@ -1,8 +1,6 @@
-"""10_grafik_ozet.py — Graphical abstract (kare, 7×7 in; PDF + 300 dpi PNG). Proje kökünden çalıştırın.
-Girdi : 05_ciktilar/asr_dort_standart.csv.gz, 02_agirliklar/agirliklar_ham_yuzde.csv
-Çıktı : 07_gonderim/Graphical_Abstract.{pdf,png}, 05_ciktilar/grafik_ozet_sayilar.txt
-Tüm sayılar bu betikte ASR dosyasından tam hassasiyetle hesaplanır ve T2_sira_uyumu.csv ile karşılaştırılır (assert).
-"""
+"""10 — Graphical abstract (PDF and 300-dpi PNG).
+Run from the repository root: python3 code/python/10_grafik_ozet.py
+Comments in the code body are in Turkish."""
 import csv, gzip, logging
 from decimal import Decimal, ROUND_HALF_UP
 import numpy as np
@@ -16,10 +14,10 @@ plt.rcParams.update({"font.family": ["Arial", "Liberation Sans", "DejaVu Sans"],
 q = lambda x, n: str(Decimal(repr(float(x))).quantize(Decimal(n), rounding=ROUND_HALF_UP))
 
 A = {"0": {}, "1": {}}
-for r in csv.DictReader(gzip.open("05_ciktilar/asr_dort_standart.csv.gz", "rt")):
+for r in csv.DictReader(gzip.open("results/tables/asr_dort_standart.csv.gz", "rt")):
     if r["yil"] == "2024" and r["kanser_kodu"] == "39" and r["cinsiyet"] == "0" and int(r["vaka_toplam"]) > 0:
         A[r["olcut"]][r["ulke_kodu"]] = (float(r["asr_segi_doll"]), float(r["asr_who2026"]))
-T2 = {(r["olcut"]): r for r in csv.DictReader(open("05_ciktilar/T2_sira_uyumu.csv"))
+T2 = {(r["olcut"]): r for r in csv.DictReader(open("results/tables/T2_sira_uyumu.csv"))
       if r["yil"] == "2024" and r["kanser"] == "All cancers" and r["std_a"] == "segi_doll" and r["std_b"] == "who2026"}
 res = {}
 for m in ("0", "1"):
@@ -30,8 +28,8 @@ for m in ("0", "1"):
     t = T2["insidans" if m == "0" else "mortalite"]
     assert len(ids) == int(t["n"]) and mv20 == int(t["kayma20"]) and abs(rho - float(t["rho"])) < 5e-5 and top == round(float(t["top10"]) * 10)
     res[m] = dict(n=len(ids), ra=ra, rb=rb, rho=rho, mv20=mv20, top=top)
-W = list(csv.DictReader(open("02_agirliklar/agirliklar_ham_yuzde.csv")))
-o60 = {k: sum(Decimal(w[k]) for w in W[12:]) for k in ("segi_doll", "who2001", "gbd2021", "who2026")}
+W = list(csv.DictReader(open("data/weights/agirliklar_ham_yuzde.csv")))
+o60 = {k: 100 * sum(Decimal(w[k]) for w in W[12:]) / sum(Decimal(w[k]) for w in W) for k in ("segi_doll", "who2001", "gbd2021", "who2026")}  # after rescaling
 
 fig = plt.figure(figsize=(7, 7))
 fig.text(0.05, 0.955, "A new WHO standard population reorders", fontsize=15, fontweight="bold", color=INK)
@@ -74,7 +72,7 @@ fig.text(0.25, 0.055, "■", color=DOWN, fontsize=10); fig.text(0.275, 0.057, "f
 fig.text(0.45, 0.055, "■", color=REST, fontsize=10); fig.text(0.475, 0.057, "moves <20 places", fontsize=8, color=INK2)
 fig.text(0.05, 0.022, f"Mortality: {res['1']['top']} of the 10 highest-ranked countries remain in the top 10. Report cancer mortality "
          "rankings under more than one standard.", fontsize=7.5, color=INK2)
-fig.savefig("07_gonderim/Graphical_Abstract.pdf"); fig.savefig("07_gonderim/Graphical_Abstract.png", dpi=300)
+fig.savefig("results/submission/Graphical_Abstract.pdf"); fig.savefig("results/submission/Graphical_Abstract.png", dpi=300)
 txt = [f"60+ payı: " + ", ".join(f"{k} {q(v, '0.1')}%" for k, v in o60.items())] + \
       [f"{'insidans' if m == '0' else 'mortalite'}: n={res[m]['n']} rho={res[m]['rho']:.6f} ≥20={res[m]['mv20']} top10={res[m]['top']}" for m in ("0", "1")]
-open("05_ciktilar/grafik_ozet_sayilar.txt", "w").write("\n".join(txt) + "\n"); print("\n".join(txt))
+open("results/tables/grafik_ozet_sayilar.txt", "w").write("\n".join(txt) + "\n"); print("\n".join(txt))

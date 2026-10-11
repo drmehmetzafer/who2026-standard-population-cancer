@@ -1,17 +1,19 @@
-"""04_sekiller.py — taslak şekiller (PNG, 300 dpi). Proje kökünden çalıştırın."""
+"""04 — Figures 1 and 3 (and earlier versions of Figures 2 and 4). Writes results/figures/.
+Run from the repository root: python3 code/python/04_sekiller.py
+Comments in the code body are in Turkish."""
 import csv, gzip, json, os
 import numpy as np
 import matplotlib; matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-os.makedirs("05_ciktilar/sekiller", exist_ok=True)
+os.makedirs("results/tables/sekiller", exist_ok=True)
 INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 S1, S2, S3, S4 = "#2a78d6", "#eb6834", "#1baf7a", "#eda100"
 plt.rcParams.update({"font.family": ["Arial", "Liberation Sans"], "pdf.fonttype": 42, "font.size": 9, "axes.edgecolor": INK2, "axes.labelcolor": INK,
                      "xtick.color": INK2, "ytick.color": INK2, "axes.spines.top": False, "axes.spines.right": False})
 
 # Şekil 1 — dört standardın yaş dağılımı
-W = list(csv.DictReader(open("02_agirliklar/agirliklar_100bin_ANALIZ.csv")))
+W = list(csv.DictReader(open("data/weights/agirliklar_100bin_ANALIZ.csv")))
 ages = [r["age_group"] for r in W]
 fig, ax = plt.subplots(figsize=(7, 3.6))
 for key, lab, col in [("segi_doll", "Segi–Doll 1966", S1), ("who2001", "WHO 2000–2025", S2),
@@ -22,16 +24,16 @@ ax.set_xticks(range(18)); ax.set_xticklabels(ages, rotation=45, ha="right")
 ax.set_ylabel("Share of standard population (%)"); ax.grid(axis="y", color=GRID, lw=0.6)
 ax.axvspan(11.5, 17.5, color=GRID, alpha=0.35, lw=0); ax.text(14.5, 11.6, "≥60 years", ha="center", color=INK2)
 ax.legend(frameon=False, ncol=4, loc="upper center", bbox_to_anchor=(0.5, 1.12))
-fig.tight_layout(); fig.savefig("05_ciktilar/sekiller/Sekil1_standart_yas_dagilimi.png", dpi=300); fig.savefig("05_ciktilar/sekiller/Sekil1_standart_yas_dagilimi.pdf"); plt.close(fig)
+fig.tight_layout(); fig.savefig("results/figures/Sekil1_standart_yas_dagilimi.png", dpi=300); fig.savefig("results/figures/Sekil1_standart_yas_dagilimi.pdf"); plt.close(fig)
 
 # veri
-meta = json.load(open("03_veri_ham/globocan_meta_2022_2024.json"))
+meta = json.load(open("data/raw/globocan_meta_2022_2024.json"))
 SHORT = {"Korea, Democratic People's Republic of": "DPR Korea", "Korea, Republic of": "Rep. of Korea", "Iran, Islamic Republic of": "Iran", "Lao People's Democratic Republic": "Lao PDR"}
 CN = {str(x["country"]): SHORT.get(x["label"], x["label"]) for x in meta["meta2024"]["p"]}
-A = [r for r in csv.DictReader(gzip.open("05_ciktilar/asr_dort_standart.csv.gz", "rt"))
+A = [r for r in csv.DictReader(gzip.open("results/tables/asr_dort_standart.csv.gz", "rt"))
      if r["yil"] == "2024" and r["kanser_kodu"] == "39" and r["cinsiyet"] == "0"]
 P60 = {}
-raw = gzip.open("03_veri_ham/globocan_yasaozgu_2022_2024.csv.gz", "rt")
+raw = gzip.open("data/raw/globocan_yasaozgu_2022_2024.csv.gz", "rt")
 acc = {}
 for r in csv.DictReader(raw):
     if r["yil"] == "2024" and r["olcut"] == "0" and r["cinsiyet"] == "0" and r["kanser_kodu"] == "39":
@@ -52,7 +54,7 @@ for ax, m, ttl in zip(axes, ("0", "1"), ("Incidence", "Mortality")):
     ax.grid(color=GRID, lw=0.6)
 axes[0].set_ylabel("ASR ratio, WHO 2026 / Segi–Doll")
 fig.suptitle("All cancers, both sexes, GLOBOCAN 2024 (186 countries)", x=0.01, ha="left", fontsize=9, color=INK2)
-fig.tight_layout(); fig.savefig("05_ciktilar/sekiller/Sekil2_oran_60plus.png", dpi=300); fig.savefig("05_ciktilar/sekiller/Sekil2_oran_60plus.pdf"); plt.close(fig)
+fig.tight_layout(); fig.savefig("results/figures/Sekil2_oran_60plus.png", dpi=300); fig.savefig("results/figures/Sekil2_oran_60plus.pdf"); plt.close(fig)
 
 # Şekil 3 — eğim grafiği: mortalite, Segi ilk 20 ∪ WHO2026 ilk 20 sıraları
 R = [r for r in A if r["olcut"] == "1"]
@@ -69,10 +71,10 @@ ax.set_ylim(max(max(a[c] for c in sel), max(b[c] for c in sel)) + 2, 0); ax.set_
 ax.set_xticks([0, 1]); ax.set_xticklabels(["Segi–Doll rank", "WHO 2026 rank"]); ax.set_yticks([])
 ax.spines["left"].set_visible(False); ax.spines["bottom"].set_visible(False)
 ax.set_title("Cancer mortality, all cancers, both sexes, GLOBOCAN 2024\nBlue: enters top 20 under WHO 2026 · Orange: leaves top 20", fontsize=9, color=INK2, loc="left")
-fig.tight_layout(); fig.savefig("05_ciktilar/sekiller/Sekil3_egim_mortalite_ilk20.png", dpi=300); fig.savefig("05_ciktilar/sekiller/Sekil3_egim_mortalite_ilk20.pdf"); plt.close(fig)
+fig.tight_layout(); fig.savefig("results/figures/Sekil3_egim_mortalite_ilk20.png", dpi=300); fig.savefig("results/figures/Sekil3_egim_mortalite_ilk20.pdf"); plt.close(fig)
 
 # Şekil 4 — 13 bölge: ρ(Segi, WHO 2026), insidans vs mortalite
-T = [r for r in csv.DictReader(open("05_ciktilar/T2_sira_uyumu.csv")) if r["std_a"] == "segi_doll" and r["std_b"] == "who2026" and r["yil"] == "2024"]
+T = [r for r in csv.DictReader(open("results/tables/T2_sira_uyumu.csv")) if r["std_a"] == "segi_doll" and r["std_b"] == "who2026" and r["yil"] == "2024"]
 sites = list(dict.fromkeys(r["kanser"] for r in T))
 fig, ax = plt.subplots(figsize=(6.5, 5))
 for i, s in enumerate(sites):
@@ -84,5 +86,5 @@ ax.set_yticks(range(len(sites))); ax.set_yticklabels(sites); ax.invert_yaxis()
 ax.axvline(0.95, color=INK2, lw=0.8, ls="--"); ax.axvline(0.90, color=INK2, lw=0.8, ls=":")
 ax.set_xlabel("Spearman ρ of country ranks, Segi–Doll vs WHO 2026\n(95% bootstrap CI; GLOBOCAN 2024)"); ax.grid(axis="x", color=GRID, lw=0.6)
 ax.legend(frameon=False, ncol=2, loc="lower center", bbox_to_anchor=(0.4, 1.0))
-fig.tight_layout(); fig.savefig("05_ciktilar/sekiller/Sekil4_rho_bolgeler.png", dpi=300); fig.savefig("05_ciktilar/sekiller/Sekil4_rho_bolgeler.pdf"); plt.close(fig)
+fig.tight_layout(); fig.savefig("results/figures/Sekil4_rho_bolgeler.png", dpi=300); fig.savefig("results/figures/Sekil4_rho_bolgeler.pdf"); plt.close(fig)
 print("ok")

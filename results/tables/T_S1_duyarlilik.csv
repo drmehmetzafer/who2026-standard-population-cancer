@@ -1,157 +1,157 @@
 yil,olcut,kanser,cinsiyet,n,rho,n_1milyon_ustu,rho_1milyon_ustu
 2024,insidans,All cancers,her_iki,186,0.983272,158,0.983914
-2024,insidans,All cancers,erkek,186,0.982479,147,0.983094
-2024,insidans,All cancers,kadin,186,0.982558,147,0.983619
+2024,insidans,All cancers,erkek,186,0.982479,158,0.98424
+2024,insidans,All cancers,kadin,186,0.982558,158,0.984076
 2024,insidans,All cancers excl. C44,her_iki,186,0.983512,158,0.983193
-2024,insidans,All cancers excl. C44,erkek,186,0.980685,147,0.981375
-2024,insidans,All cancers excl. C44,kadin,186,0.98366,147,0.984756
+2024,insidans,All cancers excl. C44,erkek,186,0.980685,158,0.982685
+2024,insidans,All cancers excl. C44,kadin,186,0.98366,158,0.985201
 2024,insidans,Lung,her_iki,185,0.992696,158,0.992701
-2024,insidans,Lung,erkek,185,0.993759,147,0.993804
-2024,insidans,Lung,kadin,185,0.994005,147,0.995051
+2024,insidans,Lung,erkek,185,0.993759,158,0.993879
+2024,insidans,Lung,kadin,185,0.994005,158,0.994794
 2024,insidans,Colorectum,her_iki,186,0.992037,158,0.991986
-2024,insidans,Colorectum,erkek,186,0.990649,147,0.989316
-2024,insidans,Colorectum,kadin,186,0.989902,147,0.992644
+2024,insidans,Colorectum,erkek,186,0.990649,158,0.990094
+2024,insidans,Colorectum,kadin,186,0.989902,158,0.991995
 2024,insidans,Stomach,her_iki,186,0.990728,158,0.992114
-2024,insidans,Stomach,erkek,186,0.990937,147,0.990574
-2024,insidans,Stomach,kadin,186,0.983973,147,0.990359
+2024,insidans,Stomach,erkek,186,0.990937,158,0.99083
+2024,insidans,Stomach,kadin,186,0.983973,158,0.989738
 2024,insidans,Thyroid,her_iki,183,0.984245,158,0.981687
-2024,insidans,Thyroid,erkek,174,0.985444,145,0.986427
-2024,insidans,Thyroid,kadin,183,0.984936,147,0.982603
+2024,insidans,Thyroid,erkek,174,0.985444,155,0.986436
+2024,insidans,Thyroid,kadin,183,0.984936,158,0.98368
 2024,insidans,Liver,her_iki,186,0.977222,158,0.982615
-2024,insidans,Liver,erkek,186,0.976243,147,0.980714
-2024,insidans,Liver,kadin,186,0.966232,147,0.971076
+2024,insidans,Liver,erkek,186,0.976243,158,0.980586
+2024,insidans,Liver,kadin,186,0.966232,158,0.970899
 2024,insidans,Bladder,her_iki,184,0.989224,158,0.991408
-2024,insidans,Bladder,erkek,184,0.987872,147,0.991103
-2024,insidans,Bladder,kadin,180,0.980045,147,0.980204
+2024,insidans,Bladder,erkek,184,0.987872,158,0.991168
+2024,insidans,Bladder,kadin,180,0.980045,158,0.980717
 2024,insidans,NHL,her_iki,185,0.986094,158,0.986814
-2024,insidans,NHL,erkek,185,0.980831,147,0.981454
-2024,insidans,NHL,kadin,184,0.985806,147,0.988897
+2024,insidans,NHL,erkek,185,0.980831,158,0.981158
+2024,insidans,NHL,kadin,184,0.985806,158,0.98877
 2024,insidans,Pancreas,her_iki,185,0.991109,158,0.989869
-2024,insidans,Pancreas,erkek,185,0.989608,147,0.98932
-2024,insidans,Pancreas,kadin,183,0.990121,147,0.991171
+2024,insidans,Pancreas,erkek,185,0.989608,158,0.989494
+2024,insidans,Pancreas,kadin,183,0.990121,158,0.990532
 2024,insidans,Oesophagus,her_iki,184,0.984238,158,0.985828
-2024,insidans,Oesophagus,erkek,184,0.986542,147,0.987272
-2024,insidans,Oesophagus,kadin,175,0.98406,146,0.992369
+2024,insidans,Oesophagus,erkek,184,0.986542,158,0.98713
+2024,insidans,Oesophagus,kadin,175,0.98406,156,0.989739
 2024,insidans,Leukaemia,her_iki,186,0.965272,158,0.977778
-2024,insidans,Leukaemia,erkek,186,0.969593,147,0.98255
-2024,insidans,Leukaemia,kadin,186,0.951089,147,0.970355
-2024,insidans,Breast,kadin,186,0.986657,147,0.9855
-2024,insidans,Prostate,erkek,186,0.977957,147,0.977578
-2024,insidans,Cervix,kadin,186,0.991957,147,0.992947
+2024,insidans,Leukaemia,erkek,186,0.969593,158,0.981842
+2024,insidans,Leukaemia,kadin,186,0.951089,158,0.966551
+2024,insidans,Breast,kadin,186,0.986657,158,0.986717
+2024,insidans,Prostate,erkek,186,0.977957,158,0.977988
+2024,insidans,Cervix,kadin,186,0.991957,158,0.992619
 2024,mortalite,All cancers,her_iki,186,0.901532,158,0.910813
-2024,mortalite,All cancers,erkek,186,0.948482,147,0.948772
-2024,mortalite,All cancers,kadin,186,0.814357,147,0.808042
+2024,mortalite,All cancers,erkek,186,0.948482,158,0.953791
+2024,mortalite,All cancers,kadin,186,0.814357,158,0.808424
 2024,mortalite,All cancers excl. C44,her_iki,186,0.900929,158,0.910639
-2024,mortalite,All cancers excl. C44,erkek,186,0.947684,147,0.946074
-2024,mortalite,All cancers excl. C44,kadin,186,0.814547,147,0.808034
+2024,mortalite,All cancers excl. C44,erkek,186,0.947684,158,0.951865
+2024,mortalite,All cancers excl. C44,kadin,186,0.814547,158,0.808799
 2024,mortalite,Lung,her_iki,185,0.990211,158,0.989649
-2024,mortalite,Lung,erkek,185,0.991179,147,0.990839
-2024,mortalite,Lung,kadin,185,0.990751,147,0.990839
+2024,mortalite,Lung,erkek,185,0.991179,158,0.991435
+2024,mortalite,Lung,kadin,185,0.990751,158,0.990888
 2024,mortalite,Colorectum,her_iki,186,0.980482,158,0.98421
-2024,mortalite,Colorectum,erkek,186,0.983691,147,0.986316
-2024,mortalite,Colorectum,kadin,186,0.972107,147,0.978591
+2024,mortalite,Colorectum,erkek,186,0.983691,158,0.986674
+2024,mortalite,Colorectum,kadin,186,0.972107,158,0.977014
 2024,mortalite,Stomach,her_iki,186,0.984857,158,0.985725
-2024,mortalite,Stomach,erkek,186,0.983529,147,0.984273
-2024,mortalite,Stomach,kadin,185,0.974004,147,0.985531
+2024,mortalite,Stomach,erkek,186,0.983529,158,0.983787
+2024,mortalite,Stomach,kadin,185,0.974004,157,0.982634
 2024,mortalite,Thyroid,her_iki,170,0.908589,154,0.922002
-2024,mortalite,Thyroid,erkek,161,0.940614,142,0.951705
-2024,mortalite,Thyroid,kadin,169,0.919039,144,0.922627
+2024,mortalite,Thyroid,erkek,161,0.940614,151,0.949125
+2024,mortalite,Thyroid,kadin,169,0.919039,153,0.919491
 2024,mortalite,Liver,her_iki,186,0.970579,158,0.977188
-2024,mortalite,Liver,erkek,186,0.970594,147,0.97711
-2024,mortalite,Liver,kadin,186,0.959431,147,0.9653
+2024,mortalite,Liver,erkek,186,0.970594,158,0.976479
+2024,mortalite,Liver,kadin,186,0.959431,158,0.964004
 2024,mortalite,Bladder,her_iki,182,0.970273,158,0.971395
-2024,mortalite,Bladder,erkek,182,0.972428,147,0.977008
-2024,mortalite,Bladder,kadin,177,0.944379,147,0.946328
+2024,mortalite,Bladder,erkek,182,0.972428,158,0.978049
+2024,mortalite,Bladder,kadin,177,0.944379,158,0.946343
 2024,mortalite,NHL,her_iki,184,0.919892,158,0.933939
-2024,mortalite,NHL,erkek,184,0.912886,147,0.931964
-2024,mortalite,NHL,kadin,183,0.925309,147,0.937261
+2024,mortalite,NHL,erkek,184,0.912886,158,0.930525
+2024,mortalite,NHL,kadin,183,0.925309,158,0.94128
 2024,mortalite,Pancreas,her_iki,185,0.990611,158,0.989254
-2024,mortalite,Pancreas,erkek,185,0.988926,147,0.989728
-2024,mortalite,Pancreas,kadin,183,0.988774,147,0.989558
+2024,mortalite,Pancreas,erkek,185,0.988926,158,0.989817
+2024,mortalite,Pancreas,kadin,183,0.988774,158,0.989068
 2024,mortalite,Oesophagus,her_iki,184,0.981676,158,0.98361
-2024,mortalite,Oesophagus,erkek,184,0.985466,147,0.987616
-2024,mortalite,Oesophagus,kadin,175,0.977824,146,0.992404
+2024,mortalite,Oesophagus,erkek,184,0.985466,158,0.986866
+2024,mortalite,Oesophagus,kadin,175,0.977824,156,0.989746
 2024,mortalite,Leukaemia,her_iki,186,0.874284,158,0.879755
-2024,mortalite,Leukaemia,erkek,186,0.902652,147,0.920158
-2024,mortalite,Leukaemia,kadin,185,0.838283,147,0.858299
-2024,mortalite,Breast,kadin,186,0.91191,147,0.909622
-2024,mortalite,Prostate,erkek,186,0.960183,147,0.967438
-2024,mortalite,Cervix,kadin,186,0.995079,147,0.99473
+2024,mortalite,Leukaemia,erkek,186,0.902652,158,0.909371
+2024,mortalite,Leukaemia,kadin,185,0.838283,158,0.857496
+2024,mortalite,Breast,kadin,186,0.91191,158,0.910944
+2024,mortalite,Prostate,erkek,186,0.960183,158,0.962544
+2024,mortalite,Cervix,kadin,186,0.995079,158,0.994907
 2022,insidans,All cancers,her_iki,185,0.990196,158,0.989096
-2022,insidans,All cancers,erkek,185,0.990827,149,0.991083
-2022,insidans,All cancers,kadin,185,0.98954,147,0.988372
+2022,insidans,All cancers,erkek,185,0.990827,158,0.991539
+2022,insidans,All cancers,kadin,185,0.98954,158,0.988393
 2022,insidans,All cancers excl. C44,her_iki,185,0.990434,158,0.989172
-2022,insidans,All cancers excl. C44,erkek,185,0.991426,149,0.991333
-2022,insidans,All cancers excl. C44,kadin,185,0.988725,147,0.987779
+2022,insidans,All cancers excl. C44,erkek,185,0.991426,158,0.991709
+2022,insidans,All cancers excl. C44,kadin,185,0.988725,158,0.987395
 2022,insidans,Lung,her_iki,185,0.994346,158,0.99421
-2022,insidans,Lung,erkek,185,0.993016,149,0.992251
-2022,insidans,Lung,kadin,185,0.9953,147,0.995304
+2022,insidans,Lung,erkek,185,0.993016,158,0.992397
+2022,insidans,Lung,kadin,185,0.9953,158,0.99547
 2022,insidans,Colorectum,her_iki,185,0.993751,158,0.99467
-2022,insidans,Colorectum,erkek,185,0.993774,149,0.994707
-2022,insidans,Colorectum,kadin,185,0.993677,147,0.994307
+2022,insidans,Colorectum,erkek,185,0.993774,158,0.994265
+2022,insidans,Colorectum,kadin,185,0.993677,158,0.994055
 2022,insidans,Stomach,her_iki,185,0.988749,158,0.991168
-2022,insidans,Stomach,erkek,185,0.988588,149,0.991428
-2022,insidans,Stomach,kadin,184,0.978964,147,0.986377
+2022,insidans,Stomach,erkek,185,0.988588,158,0.990979
+2022,insidans,Stomach,kadin,184,0.978964,158,0.985719
 2022,insidans,Thyroid,her_iki,184,0.991574,158,0.992093
-2022,insidans,Thyroid,erkek,173,0.98459,146,0.983434
-2022,insidans,Thyroid,kadin,184,0.993882,147,0.994208
+2022,insidans,Thyroid,erkek,173,0.98459,153,0.98327
+2022,insidans,Thyroid,kadin,184,0.993882,158,0.994262
 2022,insidans,Liver,her_iki,185,0.965888,158,0.971048
-2022,insidans,Liver,erkek,185,0.965458,149,0.972926
-2022,insidans,Liver,kadin,184,0.96312,147,0.966131
+2022,insidans,Liver,erkek,185,0.965458,158,0.96918
+2022,insidans,Liver,kadin,184,0.96312,158,0.966609
 2022,insidans,Bladder,her_iki,184,0.988461,158,0.991311
-2022,insidans,Bladder,erkek,184,0.989883,149,0.991725
-2022,insidans,Bladder,kadin,181,0.979538,147,0.985459
+2022,insidans,Bladder,erkek,184,0.989883,158,0.991843
+2022,insidans,Bladder,kadin,181,0.979538,158,0.985186
 2022,insidans,NHL,her_iki,184,0.982655,158,0.986151
-2022,insidans,NHL,erkek,184,0.979679,149,0.984665
-2022,insidans,NHL,kadin,184,0.980744,147,0.986509
+2022,insidans,NHL,erkek,184,0.979679,158,0.984362
+2022,insidans,NHL,kadin,184,0.980744,158,0.985472
 2022,insidans,Pancreas,her_iki,185,0.989619,158,0.991189
-2022,insidans,Pancreas,erkek,185,0.987974,149,0.9908
-2022,insidans,Pancreas,kadin,184,0.986748,147,0.990793
+2022,insidans,Pancreas,erkek,185,0.987974,158,0.990155
+2022,insidans,Pancreas,kadin,184,0.986748,158,0.98971
 2022,insidans,Oesophagus,her_iki,184,0.984003,158,0.986866
-2022,insidans,Oesophagus,erkek,183,0.985187,149,0.986066
-2022,insidans,Oesophagus,kadin,177,0.978151,146,0.989064
+2022,insidans,Oesophagus,erkek,183,0.985187,158,0.986735
+2022,insidans,Oesophagus,kadin,177,0.978151,156,0.987378
 2022,insidans,Leukaemia,her_iki,185,0.976024,158,0.982494
-2022,insidans,Leukaemia,erkek,185,0.977429,149,0.980229
-2022,insidans,Leukaemia,kadin,184,0.966974,147,0.97725
-2022,insidans,Breast,kadin,185,0.993492,147,0.993623
-2022,insidans,Prostate,erkek,185,0.989549,149,0.990695
-2022,insidans,Cervix,kadin,185,0.993647,147,0.995066
+2022,insidans,Leukaemia,erkek,185,0.977429,158,0.982037
+2022,insidans,Leukaemia,kadin,184,0.966974,158,0.975548
+2022,insidans,Breast,kadin,185,0.993492,158,0.993483
+2022,insidans,Prostate,erkek,185,0.989549,158,0.991189
+2022,insidans,Cervix,kadin,185,0.993647,158,0.994606
 2022,mortalite,All cancers,her_iki,185,0.927882,158,0.925319
-2022,mortalite,All cancers,erkek,185,0.96612,149,0.965329
-2022,mortalite,All cancers,kadin,185,0.874521,147,0.861363
+2022,mortalite,All cancers,erkek,185,0.96612,158,0.967357
+2022,mortalite,All cancers,kadin,185,0.874521,158,0.861625
 2022,mortalite,All cancers excl. C44,her_iki,185,0.928776,158,0.925414
-2022,mortalite,All cancers excl. C44,erkek,185,0.965646,149,0.965242
-2022,mortalite,All cancers excl. C44,kadin,185,0.875606,147,0.863675
+2022,mortalite,All cancers excl. C44,erkek,185,0.965646,158,0.967123
+2022,mortalite,All cancers excl. C44,kadin,185,0.875606,158,0.864132
 2022,mortalite,Lung,her_iki,185,0.991238,158,0.989403
-2022,mortalite,Lung,erkek,185,0.992172,149,0.991036
-2022,mortalite,Lung,kadin,185,0.993628,147,0.993102
+2022,mortalite,Lung,erkek,185,0.992172,158,0.991156
+2022,mortalite,Lung,kadin,185,0.993628,158,0.993593
 2022,mortalite,Colorectum,her_iki,185,0.98627,158,0.987346
-2022,mortalite,Colorectum,erkek,185,0.987671,149,0.990263
-2022,mortalite,Colorectum,kadin,185,0.978811,147,0.981836
+2022,mortalite,Colorectum,erkek,185,0.987671,158,0.989662
+2022,mortalite,Colorectum,kadin,185,0.978811,158,0.980197
 2022,mortalite,Stomach,her_iki,185,0.982645,158,0.986035
-2022,mortalite,Stomach,erkek,185,0.979343,149,0.982521
-2022,mortalite,Stomach,kadin,184,0.97268,147,0.984352
+2022,mortalite,Stomach,erkek,185,0.979343,158,0.98117
+2022,mortalite,Stomach,kadin,184,0.97268,158,0.98246
 2022,mortalite,Thyroid,her_iki,176,0.944323,156,0.956438
-2022,mortalite,Thyroid,erkek,156,0.925359,141,0.935104
-2022,mortalite,Thyroid,kadin,174,0.941951,145,0.952574
+2022,mortalite,Thyroid,erkek,156,0.925359,147,0.938201
+2022,mortalite,Thyroid,kadin,174,0.941951,155,0.950968
 2022,mortalite,Liver,her_iki,185,0.961584,158,0.964214
-2022,mortalite,Liver,erkek,185,0.958483,149,0.965532
-2022,mortalite,Liver,kadin,184,0.962237,147,0.967484
+2022,mortalite,Liver,erkek,185,0.958483,158,0.961233
+2022,mortalite,Liver,kadin,184,0.962237,158,0.964853
 2022,mortalite,Bladder,her_iki,184,0.968275,158,0.970847
-2022,mortalite,Bladder,erkek,184,0.970923,149,0.978397
-2022,mortalite,Bladder,kadin,174,0.952728,147,0.960479
+2022,mortalite,Bladder,erkek,184,0.970923,158,0.978946
+2022,mortalite,Bladder,kadin,174,0.952728,158,0.955324
 2022,mortalite,NHL,her_iki,184,0.879611,158,0.89306
-2022,mortalite,NHL,erkek,184,0.887037,149,0.907539
-2022,mortalite,NHL,kadin,182,0.876612,147,0.897627
+2022,mortalite,NHL,erkek,184,0.887037,158,0.906067
+2022,mortalite,NHL,kadin,182,0.876612,158,0.889041
 2022,mortalite,Pancreas,her_iki,185,0.988575,158,0.990909
-2022,mortalite,Pancreas,erkek,185,0.986945,149,0.990194
-2022,mortalite,Pancreas,kadin,184,0.984325,147,0.988833
+2022,mortalite,Pancreas,erkek,185,0.986945,158,0.989963
+2022,mortalite,Pancreas,kadin,184,0.984325,158,0.988874
 2022,mortalite,Oesophagus,her_iki,184,0.981322,158,0.984873
-2022,mortalite,Oesophagus,erkek,183,0.983937,149,0.985003
-2022,mortalite,Oesophagus,kadin,176,0.97396,146,0.988671
+2022,mortalite,Oesophagus,erkek,183,0.983937,158,0.985795
+2022,mortalite,Oesophagus,kadin,176,0.97396,156,0.985665
 2022,mortalite,Leukaemia,her_iki,185,0.884985,158,0.878709
-2022,mortalite,Leukaemia,erkek,185,0.89728,149,0.889686
-2022,mortalite,Leukaemia,kadin,183,0.889564,147,0.888258
-2022,mortalite,Breast,kadin,185,0.939392,147,0.933226
-2022,mortalite,Prostate,erkek,185,0.983242,149,0.985075
-2022,mortalite,Cervix,kadin,185,0.993802,147,0.994722
+2022,mortalite,Leukaemia,erkek,185,0.89728,158,0.898311
+2022,mortalite,Leukaemia,kadin,183,0.889564,158,0.884687
+2022,mortalite,Breast,kadin,185,0.939392,158,0.93588
+2022,mortalite,Prostate,erkek,185,0.983242,158,0.985308
+2022,mortalite,Cervix,kadin,185,0.993802,158,0.99449

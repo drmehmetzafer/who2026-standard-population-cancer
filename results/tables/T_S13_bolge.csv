@@ -1,0 +1,11 @@
+region,measure,n,rho_within_region,max_rank_change_within_region
+Africa,incidence,54,0.956013,20
+Asia,incidence,47,0.973636,12
+Europe,incidence,40,0.925141,17
+Latin America and the Caribbean,incidence,33,0.855281,11
+Oceania,incidence,10,0.987879,1
+Africa,mortality,54,0.947551,17
+Asia,mortality,47,0.90414,16
+Europe,mortality,40,0.877298,15
+Latin America and the Caribbean,mortality,33,0.888703,12
+Oceania,mortality,10,0.927273,2

@@ -1,0 +1,197 @@
+site,sex,measure,comparison,n,rho,rho_lo,rho_hi,top10,moved_ge10,moved_ge20
+All cancers,both,incidence,release: Segi–Doll 2022 vs 2024,185,0.906315,0.861746,0.936474,8,90,54
+All cancers,both,incidence,Segi–Doll vs WHO 2000–2025,186,0.997926,0.995885,0.998592,9,4,0
+All cancers,both,incidence,Segi–Doll vs GBD 2021,186,0.994469,0.99001,0.996262,9,16,1
+All cancers,both,incidence,WHO 2000–2025 vs GBD 2021,186,0.998728,0.997355,0.999054,10,2,0
+All cancers,both,incidence,WHO 2000–2025 vs WHO 2026,186,0.991776,0.986828,0.993968,10,24,3
+All cancers,both,incidence,GBD 2021 vs WHO 2026,186,0.996037,0.993354,0.996986,10,15,0
+All cancers,both,incidence,Segi–Doll vs WHO 2026,186,0.983272,0.973995,0.98834,9,44,12
+All cancers,both,mortality,release: Segi–Doll 2022 vs 2024,185,0.710185,0.608332,0.791794,7,114,78
+All cancers,both,mortality,Segi–Doll vs WHO 2000–2025,186,0.988605,0.981461,0.991566,9,47,3
+All cancers,both,mortality,Segi–Doll vs GBD 2021,186,0.963711,0.945354,0.973817,8,97,40
+All cancers,both,mortality,WHO 2000–2025 vs GBD 2021,186,0.991897,0.986605,0.993904,9,34,1
+All cancers,both,mortality,WHO 2000–2025 vs WHO 2026,186,0.952816,0.928087,0.967302,7,95,43
+All cancers,both,mortality,GBD 2021 vs WHO 2026,186,0.981511,0.969082,0.987634,8,58,14
+All cancers,both,mortality,Segi–Doll vs WHO 2026,186,0.901532,0.857315,0.929696,6,115,79
+"Trachea, bronchus and lung",both,incidence,release: Segi–Doll 2022 vs 2024,184,0.968357,,,8,70,25
+"Trachea, bronchus and lung",both,incidence,Segi–Doll vs WHO 2000–2025,185,0.999229,,,9,0,0
+"Trachea, bronchus and lung",both,incidence,Segi–Doll vs GBD 2021,185,0.997707,,,8,1,0
+"Trachea, bronchus and lung",both,incidence,WHO 2000–2025 vs GBD 2021,185,0.999344,,,9,0,0
+"Trachea, bronchus and lung",both,incidence,WHO 2000–2025 vs WHO 2026,185,0.995942,,,8,8,0
+"Trachea, bronchus and lung",both,incidence,GBD 2021 vs WHO 2026,185,0.998078,,,8,2,0
+"Trachea, bronchus and lung",both,incidence,Segi–Doll vs WHO 2026,185,0.992696,,,7,23,1
+"Trachea, bronchus and lung",both,mortality,release: Segi–Doll 2022 vs 2024,184,0.95998,,,9,73,30
+"Trachea, bronchus and lung",both,mortality,Segi–Doll vs WHO 2000–2025,185,0.998859,,,10,0,0
+"Trachea, bronchus and lung",both,mortality,Segi–Doll vs GBD 2021,185,0.996757,,,9,8,0
+"Trachea, bronchus and lung",both,mortality,WHO 2000–2025 vs GBD 2021,185,0.999164,,,9,0,0
+"Trachea, bronchus and lung",both,mortality,WHO 2000–2025 vs WHO 2026,185,0.994921,,,9,16,0
+"Trachea, bronchus and lung",both,mortality,GBD 2021 vs WHO 2026,185,0.997709,,,10,5,0
+"Trachea, bronchus and lung",both,mortality,Segi–Doll vs WHO 2026,185,0.990211,,,9,35,2
+Breast,female,incidence,release: Segi–Doll 2022 vs 2024,185,0.890433,,,7,111,55
+Breast,female,incidence,Segi–Doll vs WHO 2000–2025,186,0.999476,,,9,0,0
+Breast,female,incidence,Segi–Doll vs GBD 2021,186,0.997303,,,9,7,0
+Breast,female,incidence,WHO 2000–2025 vs GBD 2021,186,0.99876,,,10,2,0
+Breast,female,incidence,WHO 2000–2025 vs WHO 2026,186,0.989859,,,9,30,7
+Breast,female,incidence,GBD 2021 vs WHO 2026,186,0.994756,,,9,16,2
+Breast,female,incidence,Segi–Doll vs WHO 2026,186,0.986657,,,8,33,8
+Breast,female,mortality,release: Segi–Doll 2022 vs 2024,185,0.70801,,,6,127,86
+Breast,female,mortality,Segi–Doll vs WHO 2000–2025,186,0.996598,,,9,11,0
+Breast,female,mortality,Segi–Doll vs GBD 2021,186,0.984363,,,8,58,10
+Breast,female,mortality,WHO 2000–2025 vs GBD 2021,186,0.994638,,,9,14,0
+Breast,female,mortality,WHO 2000–2025 vs WHO 2026,186,0.93852,,,8,108,57
+Breast,female,mortality,GBD 2021 vs WHO 2026,186,0.966016,,,9,81,31
+Breast,female,mortality,Segi–Doll vs WHO 2026,186,0.91191,,,7,115,71
+Colorectum,both,incidence,release: Segi–Doll 2022 vs 2024,185,0.935448,,,9,96,41
+Colorectum,both,incidence,Segi–Doll vs WHO 2000–2025,186,0.999226,,,10,1,0
+Colorectum,both,incidence,Segi–Doll vs GBD 2021,186,0.99702,,,10,5,1
+Colorectum,both,incidence,WHO 2000–2025 vs GBD 2021,186,0.99893,,,10,4,0
+Colorectum,both,incidence,WHO 2000–2025 vs WHO 2026,186,0.99531,,,9,11,2
+Colorectum,both,incidence,GBD 2021 vs WHO 2026,186,0.998307,,,9,3,0
+Colorectum,both,incidence,Segi–Doll vs WHO 2026,186,0.992037,,,9,18,4
+Colorectum,both,mortality,release: Segi–Doll 2022 vs 2024,185,0.879514,,,8,95,55
+Colorectum,both,mortality,Segi–Doll vs WHO 2000–2025,186,0.997134,,,9,7,0
+Colorectum,both,mortality,Segi–Doll vs GBD 2021,186,0.991479,,,9,33,3
+Colorectum,both,mortality,WHO 2000–2025 vs GBD 2021,186,0.997923,,,10,4,0
+Colorectum,both,mortality,WHO 2000–2025 vs WHO 2026,186,0.991138,,,7,30,3
+Colorectum,both,mortality,GBD 2021 vs WHO 2026,186,0.996936,,,7,6,0
+Colorectum,both,mortality,Segi–Doll vs WHO 2026,186,0.980482,,,6,57,17
+Prostate,male,incidence,release: Segi–Doll 2022 vs 2024,185,0.950106,,,7,94,41
+Prostate,male,incidence,Segi–Doll vs WHO 2000–2025,186,0.996231,,,7,13,0
+Prostate,male,incidence,Segi–Doll vs GBD 2021,186,0.989728,,,6,30,7
+Prostate,male,incidence,WHO 2000–2025 vs GBD 2021,186,0.997909,,,9,4,0
+Prostate,male,incidence,WHO 2000–2025 vs WHO 2026,186,0.991048,,,8,25,4
+Prostate,male,incidence,GBD 2021 vs WHO 2026,186,0.996602,,,9,8,0
+Prostate,male,incidence,Segi–Doll vs WHO 2026,186,0.977957,,,5,60,16
+Prostate,male,mortality,release: Segi–Doll 2022 vs 2024,185,0.913212,,,6,98,58
+Prostate,male,mortality,Segi–Doll vs WHO 2000–2025,186,0.995243,,,9,11,2
+Prostate,male,mortality,Segi–Doll vs GBD 2021,186,0.980544,,,9,59,10
+Prostate,male,mortality,WHO 2000–2025 vs GBD 2021,186,0.993676,,,10,27,1
+Prostate,male,mortality,WHO 2000–2025 vs WHO 2026,186,0.980184,,,10,52,13
+Prostate,male,mortality,GBD 2021 vs WHO 2026,186,0.994922,,,10,13,3
+Prostate,male,mortality,Segi–Doll vs WHO 2026,186,0.960183,,,9,86,33
+Stomach,both,incidence,release: Segi–Doll 2022 vs 2024,185,0.862653,,,7,95,52
+Stomach,both,incidence,Segi–Doll vs WHO 2000–2025,186,0.998642,,,9,1,0
+Stomach,both,incidence,Segi–Doll vs GBD 2021,186,0.996569,,,9,6,0
+Stomach,both,incidence,WHO 2000–2025 vs GBD 2021,186,0.999178,,,10,0,0
+Stomach,both,incidence,WHO 2000–2025 vs WHO 2026,186,0.99523,,,9,15,0
+Stomach,both,incidence,GBD 2021 vs WHO 2026,186,0.997855,,,9,3,0
+Stomach,both,incidence,Segi–Doll vs WHO 2026,186,0.990728,,,8,37,2
+Stomach,both,mortality,release: Segi–Doll 2022 vs 2024,185,0.842483,,,7,109,57
+Stomach,both,mortality,Segi–Doll vs WHO 2000–2025,186,0.997734,,,10,7,0
+Stomach,both,mortality,Segi–Doll vs GBD 2021,186,0.994239,,,9,13,2
+Stomach,both,mortality,WHO 2000–2025 vs GBD 2021,186,0.998536,,,9,2,0
+Stomach,both,mortality,WHO 2000–2025 vs WHO 2026,186,0.992527,,,9,24,2
+Stomach,both,mortality,GBD 2021 vs WHO 2026,186,0.996882,,,10,8,0
+Stomach,both,mortality,Segi–Doll vs WHO 2026,186,0.984857,,,9,45,9
+Thyroid,both,incidence,release: Segi–Doll 2022 vs 2024,182,0.878226,,,7,115,70
+Thyroid,both,incidence,Segi–Doll vs WHO 2000–2025,183,0.999395,,,9,0,0
+Thyroid,both,incidence,Segi–Doll vs GBD 2021,183,0.997693,,,9,6,1
+Thyroid,both,incidence,WHO 2000–2025 vs GBD 2021,183,0.999152,,,10,1,0
+Thyroid,both,incidence,WHO 2000–2025 vs WHO 2026,183,0.988204,,,8,28,7
+Thyroid,both,incidence,GBD 2021 vs WHO 2026,183,0.992673,,,8,23,4
+Thyroid,both,incidence,Segi–Doll vs WHO 2026,183,0.984245,,,7,32,11
+Thyroid,both,mortality,release: Segi–Doll 2022 vs 2024,167,0.604347,,,2,137,96
+Thyroid,both,mortality,Segi–Doll vs WHO 2000–2025,170,0.99222,,,9,16,2
+Thyroid,both,mortality,Segi–Doll vs GBD 2021,170,0.976598,,,9,52,14
+Thyroid,both,mortality,WHO 2000–2025 vs GBD 2021,170,0.993522,,,10,13,1
+Thyroid,both,mortality,WHO 2000–2025 vs WHO 2026,170,0.945003,,,7,81,35
+Thyroid,both,mortality,GBD 2021 vs WHO 2026,170,0.972411,,,7,58,16
+Thyroid,both,mortality,Segi–Doll vs WHO 2026,170,0.908589,,,6,96,53
+Liver and intrahepatic bile ducts,both,incidence,release: Segi–Doll 2022 vs 2024,185,0.826589,,,7,102,61
+Liver and intrahepatic bile ducts,both,incidence,Segi–Doll vs WHO 2000–2025,186,0.998564,,,10,2,0
+Liver and intrahepatic bile ducts,both,incidence,Segi–Doll vs GBD 2021,186,0.994599,,,9,17,1
+Liver and intrahepatic bile ducts,both,incidence,WHO 2000–2025 vs GBD 2021,186,0.998081,,,9,2,0
+Liver and intrahepatic bile ducts,both,incidence,WHO 2000–2025 vs WHO 2026,186,0.984835,,,9,46,7
+Liver and intrahepatic bile ducts,both,incidence,GBD 2021 vs WHO 2026,186,0.992052,,,10,22,3
+Liver and intrahepatic bile ducts,both,incidence,Segi–Doll vs WHO 2026,186,0.977222,,,9,65,13
+Liver and intrahepatic bile ducts,both,mortality,release: Segi–Doll 2022 vs 2024,185,0.826553,,,7,98,54
+Liver and intrahepatic bile ducts,both,mortality,Segi–Doll vs WHO 2000–2025,186,0.997982,,,10,5,0
+Liver and intrahepatic bile ducts,both,mortality,Segi–Doll vs GBD 2021,186,0.993027,,,10,18,3
+Liver and intrahepatic bile ducts,both,mortality,WHO 2000–2025 vs GBD 2021,186,0.997801,,,10,5,0
+Liver and intrahepatic bile ducts,both,mortality,WHO 2000–2025 vs WHO 2026,186,0.981748,,,9,57,7
+Liver and intrahepatic bile ducts,both,mortality,GBD 2021 vs WHO 2026,186,0.990836,,,9,28,2
+Liver and intrahepatic bile ducts,both,mortality,Segi–Doll vs WHO 2026,186,0.970579,,,9,84,19
+Bladder,both,incidence,release: Segi–Doll 2022 vs 2024,183,0.900705,,,6,106,57
+Bladder,both,incidence,Segi–Doll vs WHO 2000–2025,184,0.998967,,,8,0,0
+Bladder,both,incidence,Segi–Doll vs GBD 2021,184,0.996467,,,8,5,0
+Bladder,both,incidence,WHO 2000–2025 vs GBD 2021,184,0.998784,,,10,1,0
+Bladder,both,incidence,WHO 2000–2025 vs WHO 2026,184,0.993597,,,9,18,1
+Bladder,both,incidence,GBD 2021 vs WHO 2026,184,0.997243,,,9,4,1
+Bladder,both,incidence,Segi–Doll vs WHO 2026,184,0.989224,,,7,37,3
+Bladder,both,mortality,release: Segi–Doll 2022 vs 2024,181,0.83749,,,3,108,62
+Bladder,both,mortality,Segi–Doll vs WHO 2000–2025,182,0.996606,,,9,6,0
+Bladder,both,mortality,Segi–Doll vs GBD 2021,182,0.988391,,,8,42,5
+Bladder,both,mortality,WHO 2000–2025 vs GBD 2021,182,0.996556,,,9,7,0
+Bladder,both,mortality,WHO 2000–2025 vs WHO 2026,182,0.984529,,,8,53,6
+Bladder,both,mortality,GBD 2021 vs WHO 2026,182,0.994502,,,9,19,1
+Bladder,both,mortality,Segi–Doll vs WHO 2026,182,0.970273,,,7,83,24
+Cervix uteri,female,incidence,release: Segi–Doll 2022 vs 2024,185,0.93031,,,7,73,36
+Cervix uteri,female,incidence,Segi–Doll vs WHO 2000–2025,186,0.999569,,,9,0,0
+Cervix uteri,female,incidence,Segi–Doll vs GBD 2021,186,0.998706,,,8,2,0
+Cervix uteri,female,incidence,WHO 2000–2025 vs GBD 2021,186,0.999487,,,9,0,0
+Cervix uteri,female,incidence,WHO 2000–2025 vs WHO 2026,186,0.992882,,,8,28,1
+Cervix uteri,female,incidence,GBD 2021 vs WHO 2026,186,0.995181,,,9,14,1
+Cervix uteri,female,incidence,Segi–Doll vs WHO 2026,186,0.991957,,,8,30,1
+Cervix uteri,female,mortality,release: Segi–Doll 2022 vs 2024,185,0.951886,,,6,84,36
+Cervix uteri,female,mortality,Segi–Doll vs WHO 2000–2025,186,0.999543,,,9,0,0
+Cervix uteri,female,mortality,Segi–Doll vs GBD 2021,186,0.998739,,,9,1,0
+Cervix uteri,female,mortality,WHO 2000–2025 vs GBD 2021,186,0.999556,,,10,0,0
+Cervix uteri,female,mortality,WHO 2000–2025 vs WHO 2026,186,0.996464,,,10,12,0
+Cervix uteri,female,mortality,GBD 2021 vs WHO 2026,186,0.997898,,,10,3,0
+Cervix uteri,female,mortality,Segi–Doll vs WHO 2026,186,0.995079,,,9,17,0
+Non-Hodgkin lymphoma,both,incidence,release: Segi–Doll 2022 vs 2024,184,0.875367,,,5,112,70
+Non-Hodgkin lymphoma,both,incidence,Segi–Doll vs WHO 2000–2025,185,0.998605,,,10,3,0
+Non-Hodgkin lymphoma,both,incidence,Segi–Doll vs GBD 2021,185,0.997468,,,9,8,0
+Non-Hodgkin lymphoma,both,incidence,WHO 2000–2025 vs GBD 2021,185,0.99928,,,9,0,0
+Non-Hodgkin lymphoma,both,incidence,WHO 2000–2025 vs WHO 2026,185,0.990916,,,8,25,6
+Non-Hodgkin lymphoma,both,incidence,GBD 2021 vs WHO 2026,185,0.993986,,,9,16,2
+Non-Hodgkin lymphoma,both,incidence,Segi–Doll vs WHO 2026,185,0.986094,,,8,36,9
+Non-Hodgkin lymphoma,both,mortality,release: Segi–Doll 2022 vs 2024,183,0.659,,,5,149,107
+Non-Hodgkin lymphoma,both,mortality,Segi–Doll vs WHO 2000–2025,184,0.9879,,,9,41,4
+Non-Hodgkin lymphoma,both,mortality,Segi–Doll vs GBD 2021,184,0.967789,,,8,62,27
+Non-Hodgkin lymphoma,both,mortality,WHO 2000–2025 vs GBD 2021,184,0.993564,,,9,25,0
+Non-Hodgkin lymphoma,both,mortality,WHO 2000–2025 vs WHO 2026,184,0.963068,,,5,69,32
+Non-Hodgkin lymphoma,both,mortality,GBD 2021 vs WHO 2026,184,0.984552,,,6,44,6
+Non-Hodgkin lymphoma,both,mortality,Segi–Doll vs WHO 2026,184,0.919892,,,4,96,52
+Pancreas,both,incidence,release: Segi–Doll 2022 vs 2024,184,0.91465,,,6,89,54
+Pancreas,both,incidence,Segi–Doll vs WHO 2000–2025,185,0.998893,,,9,0,0
+Pancreas,both,incidence,Segi–Doll vs GBD 2021,185,0.996403,,,9,10,0
+Pancreas,both,incidence,WHO 2000–2025 vs GBD 2021,185,0.998823,,,10,2,0
+Pancreas,both,incidence,WHO 2000–2025 vs WHO 2026,185,0.995152,,,10,13,0
+Pancreas,both,incidence,GBD 2021 vs WHO 2026,185,0.998156,,,10,3,0
+Pancreas,both,incidence,Segi–Doll vs WHO 2026,185,0.991109,,,9,26,4
+Pancreas,both,mortality,release: Segi–Doll 2022 vs 2024,184,0.913344,,,5,94,53
+Pancreas,both,mortality,Segi–Doll vs WHO 2000–2025,185,0.998724,,,9,2,0
+Pancreas,both,mortality,Segi–Doll vs GBD 2021,185,0.99616,,,9,11,0
+Pancreas,both,mortality,WHO 2000–2025 vs GBD 2021,185,0.998857,,,10,1,0
+Pancreas,both,mortality,WHO 2000–2025 vs WHO 2026,185,0.995175,,,9,15,0
+Pancreas,both,mortality,GBD 2021 vs WHO 2026,185,0.998296,,,9,1,0
+Pancreas,both,mortality,Segi–Doll vs WHO 2026,185,0.990611,,,8,32,5
+Oesophagus,both,incidence,release: Segi–Doll 2022 vs 2024,182,0.863689,,,8,77,53
+Oesophagus,both,incidence,Segi–Doll vs WHO 2000–2025,184,0.998262,,,10,3,0
+Oesophagus,both,incidence,Segi–Doll vs GBD 2021,184,0.995084,,,10,18,1
+Oesophagus,both,incidence,WHO 2000–2025 vs GBD 2021,184,0.998546,,,10,4,0
+Oesophagus,both,incidence,WHO 2000–2025 vs WHO 2026,184,0.990985,,,10,33,4
+Oesophagus,both,incidence,GBD 2021 vs WHO 2026,184,0.99581,,,10,12,1
+Oesophagus,both,incidence,Segi–Doll vs WHO 2026,184,0.984238,,,10,45,7
+Oesophagus,both,mortality,release: Segi–Doll 2022 vs 2024,182,0.869569,,,8,73,45
+Oesophagus,both,mortality,Segi–Doll vs WHO 2000–2025,184,0.998091,,,10,4,0
+Oesophagus,both,mortality,Segi–Doll vs GBD 2021,184,0.994277,,,10,14,3
+Oesophagus,both,mortality,WHO 2000–2025 vs GBD 2021,184,0.998241,,,10,2,0
+Oesophagus,both,mortality,WHO 2000–2025 vs WHO 2026,184,0.989438,,,9,32,5
+Oesophagus,both,mortality,GBD 2021 vs WHO 2026,184,0.995406,,,9,13,1
+Oesophagus,both,mortality,Segi–Doll vs WHO 2026,184,0.981676,,,9,54,12
+Leukaemia,both,incidence,release: Segi–Doll 2022 vs 2024,185,0.832499,,,9,119,73
+Leukaemia,both,incidence,Segi–Doll vs WHO 2000–2025,186,0.995914,,,9,17,0
+Leukaemia,both,incidence,Segi–Doll vs GBD 2021,186,0.993786,,,9,19,1
+Leukaemia,both,incidence,WHO 2000–2025 vs GBD 2021,186,0.999019,,,10,1,0
+Leukaemia,both,incidence,WHO 2000–2025 vs WHO 2026,186,0.982056,,,10,47,10
+Leukaemia,both,incidence,GBD 2021 vs WHO 2026,186,0.986144,,,10,41,8
+Leukaemia,both,incidence,Segi–Doll vs WHO 2026,186,0.965272,,,9,69,29
+Leukaemia,both,mortality,release: Segi–Doll 2022 vs 2024,185,0.70532,,,3,126,77
+Leukaemia,both,mortality,Segi–Doll vs WHO 2000–2025,186,0.984156,,,9,54,11
+Leukaemia,both,mortality,Segi–Doll vs GBD 2021,186,0.968554,,,9,81,28
+Leukaemia,both,mortality,WHO 2000–2025 vs GBD 2021,186,0.995463,,,9,14,0
+Leukaemia,both,mortality,WHO 2000–2025 vs WHO 2026,186,0.938063,,,5,99,57
+Leukaemia,both,mortality,GBD 2021 vs WHO 2026,186,0.960858,,,6,85,38
+Leukaemia,both,mortality,Segi–Doll vs WHO 2026,186,0.874284,,,5,116,76

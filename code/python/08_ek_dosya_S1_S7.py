@@ -1,12 +1,6 @@
-"""08_ek_dosya_S1_S7.py — Supporting Information (Tables S1–S7, Figure S1) tek .docx dosyası.
-Yalnız mevcut analiz çıktılarını biçimlendirir; hiçbir istatistik yeniden hesaplanmaz.
-Değerler kaynak CSV'deki hassasiyetle (ρ, τb, RBO 4 basamak) aynen yazılır; çift yuvarlama yoktur.
-Girdi : 02_agirliklar/agirliklar_100bin_ANALIZ.csv · 03_veri_ham/globocan_meta_2022_2024.json
-        05_ciktilar/{T2_sira_uyumu, T_S2_tum_bolgeler, T3_en_sik_kanser_ulkeler, T3b_en_sik_kanser_duzeltilmis_ulkeler,
-        T3_en_sik_kanser_ozet, T3b_en_sik_kanser_duzeltilmis_ozet, T_H2_huber_hdi, T_H3_ins_vs_mort, T_H4_yeni_vs_mevcut,
-        T_S1_duyarlilik}.csv · 05_ciktilar/sekiller/EkSekil_S1_harita_ASR_orani.png (09 betiği)
-Çıktı : 07_gonderim/Supporting_Information_S1-S7.docx
-"""
+"""08 — Supporting Information (Tables S1–S15, Figures S1–S2) as one .docx file (requires python-docx).
+Run from the repository root: python3 code/python/08_ek_dosya_S1_S7.py
+Comments in the code body are in Turkish."""
 import csv, json, re
 from docx import Document
 from docx.enum.section import WD_ORIENT
@@ -17,8 +11,8 @@ from docx.oxml.ns import qn
 from docx.shared import Pt, Cm, RGBColor
 
 R = lambda p: list(csv.DictReader(open(p, encoding="utf-8")))
-O = "05_ciktilar/"
-meta = json.load(open("03_veri_ham/globocan_meta_2022_2024.json"))
+O = "results/tables/"
+meta = json.load(open("data/raw/globocan_meta_2022_2024.json"))
 CNAME = {}
 for y in ("2022", "2024"):
     for p in meta["meta" + y]["p"]:
@@ -98,8 +92,8 @@ def heading(text, lvl=1): doc.add_heading(text, level=lvl)
 
 # ---------------- Title page
 doc.add_heading("Supporting Information", 0)
-doc.add_paragraph("A new world standard, a new cancer map? Impact of the WHO 2026 standard population on age-standardised "
-                  "cancer incidence, mortality and country rankings")
+doc.add_paragraph("Adopting the WHO 2026 world standard population reorders international cancer mortality, but not incidence, "
+                  "rankings: a preregistered analysis of GLOBOCAN 2022 and 2024")
 for line in [
     "Table S1. Age distribution of the four standard populations",
     "Table S2. Rank agreement between Segi–Doll and WHO 2026 for all 33 cancer sites, GLOBOCAN 2024",
@@ -108,28 +102,38 @@ for line in [
     "Table S5. Determinants of the ASR ratio (H2): Huber robust regression adjusted for HDI group",
     "Table S6. Sensitivity analyses: exclusion of C44, exclusion of countries with <1 million inhabitants, and stratification by sex",
     "Table S7. Replication in GLOBOCAN 2022",
+    "Table S8. Benchmarks: rank change between GLOBOCAN releases and between standards (post hoc)",
+    "Table S9. Rank change by GLOBOCAN mortality data source (post hoc)",
+    "Table S10. Cumulative risk 0–74 and age-truncated ASRs (post hoc)",
+    "Table S11. Change in the male:female ASR ratio (registered index 8)",
+    "Table S12. Scandinavian and European 2013 standards (registered exploratory analysis)",
+    "Table S13. Rank agreement within GLOBOCAN world regions (registered exploratory analysis)",
+    "Table S14. Rank agreement by upper age limit of standardisation (post hoc)",
+    "Table S15. Reporting recommendation by main site (registered exploratory analysis)",
+    "Table S16. H3 within sex: rank agreement for incidence versus mortality in men and in women (registered)",
     "Figure S1. ASR ratio WHO 2026 / Segi–Doll by country, all cancers, GLOBOCAN 2024",
+    "Figure S2. ASR ratio WHO 2026 / Segi–Doll against the share of the population aged ≥60",
 ]:
     doc.add_paragraph(line, style="List Bullet")
 note("General notes. ASR, age-standardised rate per 100,000; ρ, Spearman rank correlation; τb, Kendall tau-b; CI, confidence "
      "interval (percentile, 2,000 country bootstrap resamples, seed 20261010); RBO, rank-biased overlap (p = 0.9); Top-10, number of "
      "the ten highest-ranked countries shared by both standards. Countries are ranked from the highest ASR (rank 1). "
-     "Correlation statistics are reported to four decimals exactly as produced by the analysis scripts (02_ana_analiz.py, "
-     "03_duyarlilik.py, 05_h2_hdi.py, 06_ek_tablo_tum_bolgeler.py, 07_h5_cinsiyete_ozgu_duzeltme.py). Sex-specific sites are "
+     "Correlation statistics are reported to four decimals exactly as produced by the analysis code, which is available in the "
+     "public repository (see Data Availability Statement). Sex-specific sites are "
      "analysed in the relevant sex. Unless stated otherwise, the comparison is Segi–Doll versus WHO 2026.")
 
 # ---------------- S1
 doc.add_page_break(); heading("Table S1. Age distribution of the four standard populations")
 from decimal import Decimal, ROUND_HALF_UP
-W = R("02_agirliklar/agirliklar_ham_yuzde.csv"); keys = ["segi_doll", "who2001", "gbd2021", "who2026"]
+W = R("data/weights/agirliklar_ham_yuzde.csv"); keys = ["segi_doll", "who2001", "gbd2021", "who2026"]
 q = lambda d, n: str(Decimal(d).quantize(Decimal(n), rounding=ROUND_HALF_UP))
 rows = [[w["age_group"]] + [q(w[k], "0.01") for k in keys] for w in W]
-u30 = [sum(Decimal(w[k]) for w in W[:6]) for k in keys]; o60 = [sum(Decimal(w[k]) for w in W[12:]) for k in keys]
 tot = [sum(Decimal(w[k]) for w in W) for k in keys]
+u30 = [100 * sum(Decimal(w[k]) for w in W[:6]) / t for k, t in zip(keys, tot)]; o60 = [100 * sum(Decimal(w[k]) for w in W[12:]) / t for k, t in zip(keys, tot)]  # after rescaling
 rows += [["Total"] + [q(v, "0.01") for v in tot], ["<30 years"] + [q(v, "0.1") for v in u30], ["≥60 years"] + [q(v, "0.1") for v in o60]]
 table(["Age group (years)"] + [STD[k] for k in keys], rows, widths=[3.2, 3, 3, 3, 3], size=8)
-note("Values are the published percentages of each standard population (GBD 2021 aggregated from its 25 published groups). "
-     "For all analyses each standard was rescaled to sum to 100,000 (file agirliklar_100bin_ANALIZ.csv); after rescaling, the share "
+note("Age-group values are the published percentages of each standard population (GBD 2021 aggregated from its 25 published groups); the <30 and ≥60 rows are shares after rescaling to 100,000. "
+     "For all analyses each standard was rescaled to sum to 100,000; after rescaling, the share "
      "aged ≥60 is 11.0%, 11.9%, 12.6% and 20.1%, respectively. Sources: Segi–Doll, WHO 2000–2025 and WHO 2026, Table 1 of WHO Technical Paper "
      "WHO/HSA/DDA/GHE/2026.4 ; Segi–Doll cross-checked against the SEER "
      "World (Segi 1960) standard million; GBD 2021, Appendix Table S14 of the GBD 2021 demographic analysis, aggregated from 25 to "
@@ -155,7 +159,7 @@ p = doc.add_paragraph(); p.add_run("Columns 2–7: incidence; columns 8–13: mo
 table(H2HDR, s2_rows("2024"), widths=[3.6] + [1.6] * 12, size=7)
 note("Sites in GLOBOCAN order. n, countries with at least one case or death of that site. ≥20 places, number of countries whose rank "
      "differs by 20 or more places. ASR ratio, WHO 2026 ASR divided by Segi–Doll ASR (median across countries). "
-     "Source: 06_ek_tablo_tum_bolgeler.py (T_S2_tum_bolgeler.csv). The 2022 values are in Table S7D.")
+     "The 2022 values are in Table S7D.")
 
 # ---------------- S3
 landscape(False); heading("Table S3. Countries whose highest-ASR cancer site differs between Segi–Doll and WHO 2026")
@@ -184,7 +188,7 @@ for yr in ("2024", "2022"):
         for r in sorted([x for x in L3 if x["yil"] == yr and x["olcut"] == m and x["cinsiyet"] == "her_iki"], key=lambda x: x["ulke"]):
             rows.append([yr, MEAS[m], "Registered: both sexes, all sites†", r["ulke"], SHORT_SITE.get(r["segi"], r["segi"]), SHORT_SITE.get(r["who2026"], r["who2026"])])
 table(["Release", "Measure", "Analysis", "Country", "Segi–Doll", "WHO 2026"], rows, widths=[1.5, 1.7, 5.1, 4.1, 2.6, 2.6], size=7, first_left=6)
-note("Country names as labelled by GLOBOCAN. Sources: 02_ana_analiz.py (T3_en_sik_kanser_*.csv) and 07_h5_cinsiyete_ozgu_duzeltme.py (T3b_*.csv). "
+note("Country names as labelled by GLOBOCAN. "
      "Men and women rows are identical in both sources.")
 
 # ---------------- S4
@@ -204,22 +208,23 @@ T2W = [1.6, 2.6, 4.0, 0.9, 3.3, 3.3, 1.2, 1.3, 1.3, 1.3, 1.6, 3.0]
 T2HDR = ["Measure", "Site", "Standards compared", "n", "ρ (95% CI)", "τb (95% CI)", "Top-10", "RBO", "≥10 places", "≥20 places",
          "Quintile changed (%)", "ASR ratio, median (IQR)"]
 table(T2HDR, t2_rows("2024"), widths=T2W, size=6.5, first_left=3)
-note("Source: 02_ana_analiz.py (T2_sira_uyumu.csv). ASR ratio (WHO 2026 / Segi–Doll) is given for the Segi–Doll vs WHO 2026 pair only.")
+note("ASR ratio (WHO 2026 / Segi–Doll) is given for the Segi–Doll vs WHO 2026 pair only.")
 heading("S4B. H3 — rank agreement for incidence versus mortality (Segi–Doll vs WHO 2026)", 2)
 H3 = R(O + "T_H3_ins_vs_mort.csv")
 def h3_rows(yr):
     return [[site_lab(r["kanser"], r["cinsiyet"]), r["n"], f4(r["rho_ins"]), f4(r["rho_mort"]), ci(f4(r["fark"]), f4(r["fark_lo"]), f4(r["fark_hi"]))] for r in H3 if r["yil"] == yr]
 table(["Site", "n", "ρ incidence", "ρ mortality", "Difference (95% CI)"], h3_rows("2024"), widths=[5, 1.5, 3, 3, 5], size=7)
 note("Difference = ρ incidence − ρ mortality; paired country bootstrap. Sign test across the 13 sites (all cancers excluded): 12 of 13 "
-     "positive, p = 0.003 (Holm-adjusted 0.007). n, countries with cases and deaths. Source: T_H3_ins_vs_mort.csv; analiz_ozeti.txt.")
+     "positive, p = 0.003 (Holm-adjusted 0.007); the bootstrap CI excludes zero in 9 of 13 sites (lung, cervix uteri, pancreas and oesophagus do not). "
+     "n, countries with both cases and deaths, so n can be smaller than in Table S2 (e.g., thyroid: 183 for incidence ranking, 170 here).")
 heading("S4C. H4 — agreement Segi–Doll vs WHO 2026 compared with the lowest agreement among the three existing standards", 2)
 H4 = R(O + "T_H4_yeni_vs_mevcut.csv")
 def h4_rows(yr):
     return [[MEAS[r["olcut"]], SHORT_SITE.get(r["kanser"], r["kanser"]), f4(r["rho_segi_who26"]), f4(r["min_rho_mevcut"]), ci(f4(r["fark"]), f4(r["fark_lo"]), f4(r["fark_hi"]))] for r in H4 if r["yil"] == yr]
 table(["Measure", "Site", "ρ Segi–Doll vs WHO 2026", "Lowest ρ among existing standards", "Difference (95% CI)"], h4_rows("2024"), widths=[2.5, 4, 4, 5, 5.5], size=7, first_left=2)
 note("Existing standards: Segi–Doll, WHO 2000–2025 and GBD 2021 (three pairs). Difference = ρ(Segi–Doll, WHO 2026) − lowest ρ among the "
-     "three existing pairs; country bootstrap. Sign test across the 28 strata: 28 of 28 negative, p = 7.5 × 10⁻⁹ (Holm-adjusted 2.2 × 10⁻⁸). "
-     "Source: T_H4_yeni_vs_mevcut.csv; analiz_ozeti.txt.")
+     "three existing pairs; country bootstrap. Sign test across the 28 strata: 28 of 28 negative, p = 7.5 × 10⁻⁹ (Holm-adjusted 3.0 × 10⁻⁸). "
+     "H4 is close to guaranteed by construction because WHO 2026 is the most distant standard; it is reported as registered.")
 
 # ---------------- S5
 landscape(False); heading("Table S5. Determinants of the ASR ratio (H2): Huber robust regression adjusted for HDI group")
@@ -238,9 +243,9 @@ note("Outcome: country ASR ratio WHO 2026 / Segi–Doll, all cancers, both sexes
      "points, centred on the median). Adjustment: HDI 2023 group (reference Very high; UNDP Human Development Report 2025). Huber "
      "M-estimator (k = 1.345, MAD scale, IRLS); 95% CI and two-sided p from 2,000 country bootstrap resamples. Main-effects models give "
      "the common slope; interaction models give the slope in the Very high group (column 'Slope' above) and, in the lower panel, in each "
-     "HDI group. Countries without an HDI value were excluded (10 in 2024, 9 in 2022). The registered test of H2 is the main-effects "
-     "model on the ratio scale; Holm-adjusted p for H2 (larger of the incidence and mortality p values): 0.35 (2024) and 0.81 (2022). "
-     "Source: 05_h2_hdi.py (T_H2_huber_hdi.csv).")
+     "HDI group. Countries without an HDI value were excluded (10 in 2024, 9 in 2022). The registered model is the interaction model on the ratio scale, and the registered "
+     "confirmatory test is its slope for the share aged ≥60 (reference: Very high HDI): 2024 incidence p = 0.643, 2024 mortality p = 0.001; "
+     "2022 p = 0.704 and 0.732. Main-effects and log-ratio models are shown for comparison.")
 
 # ---------------- S6
 heading("Table S6. Sensitivity analyses (Segi–Doll vs WHO 2026, Spearman ρ)")
@@ -263,8 +268,8 @@ for m in ("insidans", "mortalite"):
     table(["Site", "Sex", "n", "ρ, all countries", "n", "ρ, ≥1 million", "n", "ρ, all countries", "n", "ρ, ≥1 million"], rows, widths=[2.6, 1.3, 1.1, 1.8, 1.1, 1.8, 1.1, 1.8, 1.1, 1.8], size=6.5, first_left=2)
     note("Columns 3–6: GLOBOCAN 2024; columns 7–10: GLOBOCAN 2022.", italic=True)
 note("All cancers excl. C44 = GLOBOCAN code 40 (all cancers excluding non-melanoma skin cancer); 'All cancers' = code 39 (default). ≥1 million, "
-     "countries with at least one million inhabitants. Analyses by sex were registered as secondary/exploratory. Source: 03_duyarlilik.py "
-     "(T_S1_duyarlilik.csv).")
+     "countries with at least one million inhabitants. The threshold is applied to the country's total (both-sexes) population, so the same countries are used in all "
+     "sex strata. Analyses by sex were registered as secondary/exploratory.")
 
 # ---------------- S7
 landscape(True); heading("Table S7. Replication in GLOBOCAN 2022 (185 countries common to both releases)")
@@ -272,24 +277,94 @@ heading("S7A. Segi–Doll vs WHO 2026, 14 main strata", 2)
 table(T2HDR, t2_rows("2022", {("segi_doll", "who2026")}), widths=T2W, size=6.5, first_left=3)
 heading("S7B. H3 — incidence versus mortality", 2)
 table(["Site", "n", "ρ incidence", "ρ mortality", "Difference (95% CI)"], h3_rows("2022"), widths=[5, 1.5, 3, 3, 5], size=7)
-note("Sign test: 12 of 13 sites positive, p = 0.003 (Holm-adjusted 0.007).")
+note("Sign test: 12 of 13 sites positive, p = 0.003 (Holm-adjusted 0.010); the bootstrap CI excludes zero in 8 of 13 sites.")
 heading("S7C. H4 — Segi–Doll vs WHO 2026 compared with the lowest agreement among existing standards", 2)
 table(["Measure", "Site", "ρ Segi–Doll vs WHO 2026", "Lowest ρ among existing standards", "Difference (95% CI)"], h4_rows("2022"), widths=[2.5, 4, 4, 5, 5.5], size=7, first_left=2)
-note("Sign test: 28 of 28 strata negative, p = 7.5 × 10⁻⁹ (Holm-adjusted 2.2 × 10⁻⁸).")
+note("Sign test: 28 of 28 strata negative, p = 7.5 × 10⁻⁹ (Holm-adjusted 3.0 × 10⁻⁸).")
 heading("S7D. All 33 cancer sites", 2)
 p = doc.add_paragraph(); p.add_run("Columns 2–7: incidence; columns 8–13: mortality.").font.size = Pt(7.5)
 table(H2HDR, s2_rows("2022"), widths=[3.6] + [1.6] * 12, size=7)
-note("Results for the six pairs of standards in 2022 and for H2 in 2022 are given in the source file T2_sira_uyumu.csv and in Table S5. "
+note("Results for the six pairs of standards in 2022 are in the public repository; H2 in 2022 is in Table S5. "
      "China changed GLOBOCAN country code between releases (160 in 2022, 156 in 2024) and was matched manually.")
 
+
+# ================= Additional tables (S8–S16) =================
+def f3(x): return f"{float(x):.3f}"
+MEN = {"incidence": "Incidence", "mortality": "Mortality"}
+def sitel(x): return SHORT_SITE.get(x, x)
+landscape(False); heading("Table S8. Benchmarks: rank change between GLOBOCAN releases and between standards (post hoc)")
+S8 = R(O + "T_S8_benchmark.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["comparison"].replace("release: ", "Release update: "), r["n"],
+         ci(f3(r["rho"]), f3(r["rho_lo"]), f3(r["rho_hi"])) if r["rho_lo"] else f3(r["rho"]), f"{r['top10']}/10", r["moved_ge10"], r["moved_ge20"]] for r in S8]
+table(["Measure", "Site", "Comparison", "n", "ρ (95% CI)", "Top-10", "≥10 places", "≥20 places"], rows, widths=[1.8, 2.6, 5.2, 0.9, 3.0, 1.2, 1.3, 1.3], size=6.5, first_left=3)
+note("Release update: Segi–Doll ASRs in GLOBOCAN 2022 versus GLOBOCAN 2024 for the 185 countries present in both releases with cases in both, "
+     "i.e. the change in country ranks produced by a release update while the standard is held fixed. Standard comparisons: GLOBOCAN 2024. "
+     "95% CIs (2,000 country bootstrap resamples) are shown for all cancers only. Not preregistered.")
+heading("Table S9. Rank change by GLOBOCAN mortality data source, Segi–Doll vs WHO 2026, GLOBOCAN 2024 (post hoc)")
+S9 = R(O + "T_S9_veri_kalitesi.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["tier"], r["n"], ci(f3(r["rho_within_tier"]), f3(r["rho_lo"]), f3(r["rho_hi"])) if r["rho_lo"] else f3(r["rho_within_tier"]),
+         r["moved_ge20_within_tier"], f"{r['moved_ge20_in_full_ranking']} ({pct(r['share_moved_ge20_full'])}%)"] for r in S9]
+table(["Measure", "Site", "GLOBOCAN mortality method", "n", "ρ within group (95% CI)", "≥20 places within group", "≥20 places in full ranking (%)"], rows,
+      widths=[1.8, 2.6, 5.0, 0.9, 3.0, 1.9, 2.4], size=6.5, first_left=3)
+note("Countries grouped by the GLOBOCAN 2024 mortality estimation method: methods 1, 2a and 2b use national or subnational death records; "
+     "methods 3a–3c and 4 derive mortality from incidence with modelled incidence-to-mortality ratios or from neighbouring countries (GLOBOCAN "
+     "sources and methods). For all-cancer mortality, the proportion of countries moving ≥20 places in the full ranking did not differ between the "
+     "groups (41.6% vs 43.3%; Fisher exact p = 0.88). Not preregistered.")
+heading("Table S10. Cumulative risk 0–74 and age-truncated ASRs, GLOBOCAN 2024 (post hoc)")
+S10 = R(O + "T_S10_standarttan_bagimsiz.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["comparison"], r["n"], f3(r["rho"]), f"{r['top10']}/10", r["moved_ge20"]] for r in S10]
+table(["Measure", "Site", "Comparison", "n", "ρ", "Top-10", "≥20 places"], rows, widths=[1.8, 2.6, 6.6, 0.9, 1.4, 1.3, 1.6], size=6.5, first_left=3)
+note("Cumulative risk 0–74 (%) = 100 × [1 − exp(−5 Σ r_a / 100,000)] over the 15 age groups 0–4 to 70–74; it does not depend on a standard "
+     "population. Truncated ASRs use the weights of the included age groups, rescaled to sum to 100,000. Not preregistered.")
+heading("Table S11. Change in the male:female ASR ratio, WHO 2026 vs Segi–Doll, GLOBOCAN 2024 (registered index 8)")
+S11 = R(O + "T_S11_erkek_kadin_orani.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["n"], f3(r["median_change"]), f"{f3(r['q1'])}–{f3(r['q3'])}", f"{f3(r['min'])}–{f3(r['max'])}", pct(r["share_change_gt5pct"])] for r in S11]
+table(["Measure", "Site", "n", "Median change", "IQR", "Range", "Countries with >5% change (%)"], rows, widths=[1.8, 3.0, 0.9, 2.0, 2.6, 2.6, 2.6], size=6.5, first_left=2)
+note("Change = (male:female ASR ratio under WHO 2026) / (male:female ASR ratio under Segi–Doll), per country, for non-sex-specific main sites; "
+     "values above 1 mean that WHO 2026 widens the male excess. Countries with cases in both sexes.")
+heading("Table S12. Scandinavian and European 2013 standards, GLOBOCAN 2024 (registered exploratory analysis)")
+S12 = R(O + "T_S12_iskandinav_avrupa2013.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["comparison"], r["n"], f3(r["rho"]), f"{r['top10']}/10", r["moved_ge20"]] for r in S12]
+table(["Measure", "Site", "Comparison", "n", "ρ", "Top-10", "≥20 places"], rows, widths=[1.8, 2.6, 5.0, 0.9, 1.4, 1.3, 1.6], size=6.5, first_left=3)
+note("Weights from Table 1 of WHO Technical Paper WHO/HSA/DDA/GHE/2026.4, rescaled to 100,000. Share aged ≥60: Scandinavian 16.0%, "
+     "European 2013 25.5%.")
+heading("Table S13. Rank agreement within GLOBOCAN world regions, all cancers, both sexes, GLOBOCAN 2024 (registered exploratory analysis)")
+S13 = R(O + "T_S13_bolge.csv")
+rows = [[MEN[r["measure"]], r["region"], r["n"], f3(r["rho_within_region"]), r["max_rank_change_within_region"]] for r in S13]
+table(["Measure", "Region", "n", "ρ within region", "Largest rank change within region"], rows, widths=[2.2, 5.5, 1.2, 2.5, 4.0], size=7, first_left=2)
+note("Countries ranked within each GLOBOCAN grouping; Northern America (2 countries) not shown.")
+heading("Table S14. Rank agreement, Segi–Doll vs WHO 2026, by upper age limit of standardisation, GLOBOCAN 2024 (post hoc)")
+S14 = R(O + "T_S14_yas_kesme.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["ages"], r["n"], f3(r["rho"]), f"{r['top10']}/10", r["moved_ge20"]] for r in S14]
+table(["Measure", "Site", "Ages included", "n", "ρ", "Top-10", "≥20 places"], rows, widths=[1.8, 2.8, 2.0, 0.9, 1.4, 1.3, 1.6], size=6.5, first_left=3)
+note("Truncated ASRs use the weights of the included age groups, rescaled to sum to 100,000. Not preregistered.")
+heading("Table S15. Reporting recommendation by main site, GLOBOCAN 2024 (registered exploratory analysis)")
+S15 = R(O + "T_S15_raporlama_onerisi.csv")
+rows = [[MEN[r["measure"]], sitel(r["site"]), r["rho_full"], r["moved_ge20"], r["rho_truncated_0_74"], r["recommendation"]] for r in S15]
+table(["Measure", "Site", "ρ, all ages", "≥20 places", "ρ, ages 0–74", "Recommendation for country comparisons"], rows, widths=[1.8, 2.6, 1.5, 1.4, 1.6, 7.0], size=6.5, first_left=2)
+note("Rules, defined after analysis and applied mechanically: ρ ≥ 0.95 and ≤15 countries moving ≥20 places, rankings comparable across standards; "
+     "otherwise, if ρ for ASRs truncated at 74 years is ≥0.98, state the standard and report rankings of truncated rates alongside; otherwise, "
+     "report rankings under both standards. Truncated rates exclude deaths at ages ≥75 and complement, rather than replace, all-age ASRs.")
+
+heading("Table S16. H3 within sex: rank agreement for incidence versus mortality, Segi–Doll vs WHO 2026, GLOBOCAN 2024 (registered)")
+S16 = R(O + "T_S16_H3_cinsiyet.csv")
+rows = [[r["sex"].capitalize(), sitel(r["site"]), r["n"], f4(r["rho_incidence"]), f4(r["rho_mortality"]), ci(f4(r["difference"]), f4(r["lo"]), f4(r["hi"]))] for r in S16]
+table(["Sex", "Site", "n", "ρ incidence", "ρ mortality", "Difference (95% CI)"], rows, widths=[1.6, 3.4, 1.0, 2.2, 2.2, 4.6], size=7, first_left=2)
+note("Difference = ρ incidence − ρ mortality; paired country bootstrap (2,000 resamples). Sign test: men, 11 of 11 sites positive (p = 0.001; CI excludes "
+     "zero in 9); women, 11 of 12 positive (p = 0.006; CI excludes zero in 8). Sex-specific sites in the relevant sex only.")
 # ---------------- Figure S1
 landscape(False); heading("Figure S1. ASR ratio WHO 2026 / Segi–Doll by country, all cancers, both sexes, GLOBOCAN 2024")
-doc.add_picture("05_ciktilar/sekiller/EkSekil_S1_harita_ASR_orani.png", width=Cm(16.5))
+doc.add_picture("results/figures/EkSekil_S1_harita_ASR_orani.png", width=Cm(16.5))
 note("(A) Incidence; (B) mortality. Classes are identical in both panels. Grey, no GLOBOCAN estimate. Equal Earth projection. Boundaries: "
      "Natural Earth 1:50m admin-0 countries (public domain); Somaliland is shown with Somalia and Northern Cyprus with Cyprus, consistent "
      "with the population coverage of the GLOBOCAN estimates; French Guiana, Guadeloupe, Martinique and La Réunion are shown separately "
-     "from metropolitan France, as in GLOBOCAN. Boundaries do not imply any judgement on the legal status of any territory. "
-     "Source: 09_harita_ek_sekil_S1.py.")
+     "from metropolitan France, as in GLOBOCAN. Boundaries do not imply any judgement on the legal status of any territory.")
 
-doc.save("07_gonderim/Supporting_Information_S1-S7.docx")
+heading("Figure S2. ASR ratio WHO 2026 / Segi–Doll against the share of the population aged ≥60, all cancers, both sexes, GLOBOCAN 2024")
+doc.add_picture("results/figures/FigureS2_ratio_age60.png", width=Cm(16.5))
+note("(A) Incidence; (B) mortality. Each point is one country (n = 186); circled and labelled: highest and lowest ratio and largest share aged ≥60. "
+     "Spearman ρ 0.33 (95% CI 0.21–0.44) for incidence and 0.63 (0.55–0.70) for mortality. Regression models are given in Table S5.")
+doc.core_properties.author = "Mehmet Zafer Sabuncuoğlu; İsmail Zihni"
+doc.core_properties.title = "Supporting Information"
+doc.save("results/submission/Supporting_Information.docx")
 print("ok")

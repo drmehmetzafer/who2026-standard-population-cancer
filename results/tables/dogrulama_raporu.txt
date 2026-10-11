@@ -1,0 +1,8 @@
+DOĞRULAMA RAPORU
+Hücre (yıl×ölçüt×cinsiyet×ülke×kanser): 75684
+18 yaş grubu eksik olan            : 0
+Yaş toplamı ≠ resmî toplam         : 0
+Negatif türetilmiş değer           : 0
+Sıfır nüfuslu yaş grubu (atlandı)  : 0
+Segi ASR − IARC ASR  en büyük |fark|: 0.00  (None)
+|fark| > 0,05 olan hücre            : 0

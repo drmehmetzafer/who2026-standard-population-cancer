@@ -1,13 +1,15 @@
-"""06_ek_tablo_tum_bolgeler.py — Ek Tablo: 33 bölgenin tamamı, Segi–Doll ↔ WHO 2026 (nokta tahminleri). Proje kökünden."""
+"""06 — Supplementary Table S2: rank agreement for all 33 cancer sites (point estimates).
+Run from the repository root: python3 code/python/06_ek_tablo_tum_bolgeler.py
+Comments in the code body are in Turkish."""
 import csv, gzip, json
 from collections import defaultdict
 import numpy as np
 from scipy import stats
-meta = json.load(open("03_veri_ham/globocan_meta_2022_2024.json"))
+meta = json.load(open("data/raw/globocan_meta_2022_2024.json"))
 SITE = {str(x["cancer"]): x["label"] for x in meta["meta2024"]["c"]}
 MALE = {"26", "27", "28"}; FEM = {"20", "21", "22", "23", "24", "25"}
 A = defaultdict(dict)
-for r in csv.DictReader(gzip.open("05_ciktilar/asr_dort_standart.csv.gz", "rt")):
+for r in csv.DictReader(gzip.open("results/tables/asr_dort_standart.csv.gz", "rt")):
     A[(r["yil"], r["olcut"], r["cinsiyet"], r["kanser_kodu"])][r["ulke_kodu"].replace("160", "156")] = (float(r["asr_segi_doll"]), float(r["asr_who2026"]), int(r["vaka_toplam"]))
 out = []
 for yr in ("2024", "2022"):
@@ -23,7 +25,7 @@ for yr in ("2024", "2022"):
                             rho=round(stats.spearmanr(a, b)[0], 6), tau_b=round(stats.kendalltau(a, b)[0], 6),
                             top10=len(set(ia) & set(ib)) / 10, kayma20=int((np.abs(ra - rb) >= 20).sum()),
                             oran_ortanca=round(float(np.median(b / a)), 3)))
-with open("05_ciktilar/T_S2_tum_bolgeler.csv", "w", newline="") as f:
+with open("results/tables/T_S2_tum_bolgeler.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=list(out[0])); w.writeheader(); w.writerows(out)
 low = sorted([r for r in out if r["yil"] == "2024"], key=lambda r: r["rho"])[:8]
 for r in low: print(r["kanser"], r["olcut"], r["n"], r["rho"], r["top10"], r["kayma20"], r["oran_ortanca"])
