@@ -1,0 +1,177 @@
+iso3,country,hdi_value,hdi_group
+ISL,Iceland,0.972,Very High
+NOR,Norway,0.97,Very High
+CHE,Switzerland,0.97,Very High
+DNK,Denmark,0.962,Very High
+DEU,Germany,0.959,Very High
+SWE,Sweden,0.959,Very High
+AUS,Australia,0.958,Very High
+BEL,Belgium,0.951,Very High
+IRL,Ireland,0.949,Very High
+FIN,Finland,0.948,Very High
+SGP,Singapore,0.946,Very High
+GBR,United Kingdom,0.946,Very High
+ARE,United Arab Emirates,0.94,Very High
+CAN,Canada,0.939,Very High
+NZL,New Zealand,0.938,Very High
+SVN,Slovenia,0.931,Very High
+AUT,Austria,0.93,Very High
+JPN,Japan,0.925,Very High
+MLT,Malta,0.924,Very High
+LUX,Luxembourg,0.922,Very High
+FRA,France (metropolitan),0.92,Very High
+ISR,Israel,0.919,Very High
+ESP,Spain,0.918,Very High
+CZE,Czechia,0.915,Very High
+ITA,Italy,0.915,Very High
+CYP,Cyprus,0.913,Very High
+GRC,Greece,0.908,Very High
+POL,Poland,0.906,Very High
+EST,Estonia,0.905,Very High
+SAU,Saudi Arabia,0.9,Very High
+BHR,Bahrain,0.899,Very High
+LTU,Lithuania,0.895,Very High
+PRT,Portugal,0.89,Very High
+HRV,Croatia,0.889,Very High
+LVA,Latvia,0.889,Very High
+QAT,Qatar,0.886,Very High
+SVK,Slovakia,0.88,Very High
+CHL,Chile,0.878,Very High
+HUN,Hungary,0.87,Very High
+ARG,Argentina,0.865,Very High
+MNE,Montenegro,0.862,Very High
+URY,Uruguay,0.862,Very High
+OMN,Oman,0.858,Very High
+TUR,Türkiye,0.853,Very High
+KWT,Kuwait,0.852,Very High
+BGR,Bulgaria,0.845,Very High
+ROU,Romania,0.845,Very High
+GEO,Georgia,0.844,Very High
+PAN,Panama,0.839,Very High
+BRN,Brunei Darussalam,0.837,Very High
+KAZ,Kazakhstan,0.837,Very High
+CRI,Costa Rica,0.833,Very High
+SRB,Serbia,0.833,Very High
+RUS,Russian Federation,0.832,Very High
+BLR,Belarus,0.824,Very High
+BHS,Bahamas,0.82,Very High
+MYS,Malaysia,0.819,Very High
+MKD,North Macedonia,0.815,Very High
+ARM,Armenia,0.811,Very High
+BRB,Barbados,0.811,Very High
+ALB,Albania,0.81,Very High
+TTO,Trinidad and Tobago,0.807,Very High
+MUS,Mauritius,0.806,Very High
+THA,Thailand,0.798,High
+CHN,China,0.797,High
+PER,Peru,0.794,High
+AZE,Azerbaijan,0.789,High
+MEX,Mexico,0.789,High
+COL,Colombia,0.788,High
+BRA,Brazil,0.786,High
+UKR,Ukraine,0.779,High
+ECU,Ecuador,0.777,High
+DOM,Dominican Republic,0.776,High
+GUY,Guyana,0.776,High
+LKA,Sri Lanka,0.776,High
+MDV,Maldives,0.766,High
+VNM,Viet Nam,0.766,High
+TKM,Turkmenistan,0.764,High
+DZA,Algeria,0.763,High
+CUB,Cuba,0.762,High
+PRY,Paraguay,0.756,High
+EGY,Egypt,0.754,High
+JOR,Jordan,0.754,High
+LBN,Lebanon,0.752,High
+LCA,Saint Lucia,0.748,High
+MNG,Mongolia,0.747,High
+TUN,Tunisia,0.746,High
+ZAF,South Africa,0.741,High
+UZB,Uzbekistan,0.74,High
+BOL,Bolivia (Plurinational State of),0.733,High
+GAB,Gabon,0.733,High
+BWA,Botswana,0.731,High
+FJI,Fiji,0.731,High
+IDN,Indonesia,0.728,High
+SUR,Suriname,0.722,High
+BLZ,Belize,0.721,High
+LBY,Libya,0.721,High
+JAM,Jamaica,0.72,High
+KGZ,Kyrgyzstan,0.72,High
+PHL,Philippines,0.72,High
+MAR,Morocco,0.71,High
+VEN,Venezuela,0.709,High
+WSM,Samoa,0.708,High
+NIC,Nicaragua,0.706,High
+BTN,Bhutan,0.698,Medium
+SWZ,Eswatini,0.695,Medium
+IRQ,Iraq,0.695,Medium
+TJK,Tajikistan,0.691,Medium
+BGD,Bangladesh,0.685,Medium
+IND,India,0.685,Medium
+SLV,El Salvador,0.678,Medium
+GNQ,Equatorial Guinea,0.674,Medium
+NAM,Namibia,0.665,Medium
+GTM,Guatemala,0.662,Medium
+HND,Honduras,0.645,Medium
+STP,Sao Tome and Principe,0.637,Medium
+TLS,Timor-Leste,0.634,Medium
+GHA,Ghana,0.628,Medium
+KEN,Kenya,0.628,Medium
+NPL,Nepal,0.622,Medium
+VUT,Vanuatu,0.621,Medium
+LAO,Lao People's Democratic Republic,0.617,Medium
+AGO,Angola,0.616,Medium
+MMR,Myanmar,0.609,Medium
+KHM,Cambodia,0.606,Medium
+COM,Comoros,0.603,Medium
+ZWE,Zimbabwe,0.598,Medium
+ZMB,Zambia,0.595,Medium
+CMR,Cameroon,0.588,Medium
+SLB,Solomon Islands,0.584,Medium
+CIV,Côte d'Ivoire,0.582,Medium
+UGA,Uganda,0.582,Medium
+RWA,Rwanda,0.578,Medium
+PNG,Papua New Guinea,0.576,Medium
+TGO,Togo,0.571,Medium
+SYR,Syrian Arab Republic,0.564,Medium
+MRT,Mauritania,0.563,Medium
+NGA,Nigeria,0.56,Medium
+HTI,Haiti,0.554,Medium
+LSO,Lesotho,0.55,Medium
+PAK,Pakistan,0.544,Low
+SEN,Senegal,0.53,Low
+MWI,Malawi,0.517,Low
+BEN,Benin,0.515,Low
+GNB,Guinea-Bissau,0.514,Low
+DJI,Djibouti,0.513,Low
+SDN,Sudan,0.511,Low
+LBR,Liberia,0.51,Low
+ERI,Eritrea,0.503,Low
+GIN,Guinea,0.5,Low
+ETH,Ethiopia,0.497,Low
+AFG,Afghanistan,0.496,Low
+MOZ,Mozambique,0.493,Low
+MDG,Madagascar,0.487,Low
+YEM,Yemen,0.47,Low
+SLE,Sierra Leone,0.467,Low
+BFA,Burkina Faso,0.459,Low
+BDI,Burundi,0.439,Low
+MLI,Mali,0.419,Low
+NER,Niger,0.419,Low
+TCD,Chad,0.416,Low
+CAF,Central African Republic,0.414,Low
+SOM,Somalia,0.404,Low
+SSD,South Sudan,0.388,Low
+BIH,Bosnia Herzegovina,0.804,Very High
+COD,"Congo, Democratic Republic of",0.522,Low
+COG,"Congo, Republic of",0.649,Medium
+CPV,Cape Verde,0.668,Medium
+GMB,The Republic of the Gambia,0.524,Low
+IRN,"Iran, Islamic Republic of",0.799,High
+KOR,"Korea, Republic of",0.937,Very High
+MDA,Republic of Moldova,0.785,High
+NLD,The Netherlands,0.955,Very High
+PSE,Gaza Strip and West Bank,0.674,Medium
+TZA,"Tanzania, United Republic of",0.555,Medium
+USA,United States of America,0.938,Very High

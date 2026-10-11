@@ -1,0 +1,182 @@
+yil,olcut,surum,ulke_kodu,segi,who2026
+2024,insidans,her_iki_cinsiyete_ozgu_haric,24,Colorectum,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,68,Stomach,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,100,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,196,Thyroid,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,250,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,276,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,348,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,352,Colorectum,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,364,Colorectum,Stomach
+2024,insidans,her_iki_cinsiyete_ozgu_haric,372,Colorectum,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,410,Thyroid,"Trachea, bronchus and lung"
+2024,insidans,her_iki_cinsiyete_ozgu_haric,440,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,598,"Lip, oral cavity",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,642,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,646,Colorectum,Stomach
+2024,insidans,her_iki_cinsiyete_ozgu_haric,688,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,704,"Trachea, bronchus and lung",Colorectum
+2024,insidans,her_iki_cinsiyete_ozgu_haric,894,Kaposi sarcoma,Colorectum
+2024,insidans,erkek,4,Stomach,Prostate
+2024,insidans,erkek,31,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,51,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,100,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,144,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,268,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,316,Prostate,"Trachea, bronchus and lung"
+2024,insidans,erkek,398,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,422,Bladder,Prostate
+2024,insidans,erkek,458,"Trachea, bronchus and lung",Colorectum
+2024,insidans,erkek,508,Kaposi sarcoma,Prostate
+2024,insidans,erkek,626,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,643,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,702,Colorectum,Prostate
+2024,insidans,erkek,760,"Trachea, bronchus and lung",Bladder
+2024,insidans,erkek,795,Stomach,Prostate
+2024,insidans,erkek,807,"Trachea, bronchus and lung",Prostate
+2024,insidans,kadin,50,Cervix uteri,"Trachea, bronchus and lung"
+2024,insidans,kadin,120,Breast,Cervix uteri
+2024,insidans,kadin,156,Thyroid,"Trachea, bronchus and lung"
+2024,insidans,kadin,178,Breast,Cervix uteri
+2024,insidans,kadin,524,Breast,Stomach
+2024,insidans,kadin,762,Breast,Stomach
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,72,"Trachea, bronchus and lung",Oesophagus
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,90,Liver and intrahepatic bile ducts,Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,120,Non-Hodgkin lymphoma,Liver and intrahepatic bile ducts
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,180,Liver and intrahepatic bile ducts,Oesophagus
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,188,Stomach,Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,242,Liver and intrahepatic bile ducts,Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,254,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,332,Liver and intrahepatic bile ducts,Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,498,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,512,Colorectum,Liver and intrahepatic bile ducts
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,598,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,646,Stomach,Liver and intrahepatic bile ducts
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,703,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,her_iki_cinsiyete_ozgu_haric,706,Colorectum,Oesophagus
+2024,mortalite,erkek,72,"Trachea, bronchus and lung",Oesophagus
+2024,mortalite,erkek,76,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,152,Stomach,Prostate
+2024,mortalite,erkek,188,Stomach,Prostate
+2024,mortalite,erkek,192,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,258,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,320,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,352,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,466,Stomach,Prostate
+2024,mortalite,erkek,512,Liver and intrahepatic bile ducts,"Trachea, bronchus and lung"
+2024,mortalite,erkek,531,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,586,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,598,"Lip, oral cavity",Colorectum
+2024,mortalite,erkek,604,Stomach,Prostate
+2024,mortalite,erkek,608,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,624,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,686,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,703,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,erkek,860,"Trachea, bronchus and lung",Stomach
+2024,mortalite,kadin,8,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,31,Breast,Stomach
+2024,mortalite,kadin,50,Oesophagus,"Trachea, bronchus and lung"
+2024,mortalite,kadin,64,Cervix uteri,Stomach
+2024,mortalite,kadin,90,Cervix uteri,Breast
+2024,mortalite,kadin,96,Breast,"Trachea, bronchus and lung"
+2024,mortalite,kadin,112,Breast,Colorectum
+2024,mortalite,kadin,116,Breast,Liver and intrahepatic bile ducts
+2024,mortalite,kadin,152,Breast,Colorectum
+2024,mortalite,kadin,218,Breast,Stomach
+2024,mortalite,kadin,258,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,288,Breast,Cervix uteri
+2024,mortalite,kadin,392,Breast,Colorectum
+2024,mortalite,kadin,442,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,540,Breast,"Trachea, bronchus and lung"
+2024,mortalite,kadin,604,Cervix uteri,Stomach
+2024,mortalite,kadin,643,Breast,Colorectum
+2024,mortalite,kadin,724,"Trachea, bronchus and lung",Breast
+2022,insidans,her_iki_cinsiyete_ozgu_haric,36,Melanoma of skin,Colorectum
+2022,insidans,her_iki_cinsiyete_ozgu_haric,48,Colorectum,"Trachea, bronchus and lung"
+2022,insidans,her_iki_cinsiyete_ozgu_haric,68,Stomach,"Trachea, bronchus and lung"
+2022,insidans,her_iki_cinsiyete_ozgu_haric,72,Kaposi sarcoma,Oesophagus
+2022,insidans,her_iki_cinsiyete_ozgu_haric,132,Colorectum,Stomach
+2022,insidans,her_iki_cinsiyete_ozgu_haric,144,"Lip, oral cavity",Colorectum
+2022,insidans,her_iki_cinsiyete_ozgu_haric,180,Liver and intrahepatic bile ducts,Colorectum
+2022,insidans,her_iki_cinsiyete_ozgu_haric,188,Colorectum,Stomach
+2022,insidans,her_iki_cinsiyete_ozgu_haric,196,Thyroid,"Trachea, bronchus and lung"
+2022,insidans,her_iki_cinsiyete_ozgu_haric,222,Colorectum,Stomach
+2022,insidans,her_iki_cinsiyete_ozgu_haric,250,"Trachea, bronchus and lung",Colorectum
+2022,insidans,her_iki_cinsiyete_ozgu_haric,410,Stomach,"Trachea, bronchus and lung"
+2022,insidans,her_iki_cinsiyete_ozgu_haric,428,"Trachea, bronchus and lung",Colorectum
+2022,insidans,her_iki_cinsiyete_ozgu_haric,704,"Trachea, bronchus and lung",Liver and intrahepatic bile ducts
+2022,insidans,her_iki_cinsiyete_ozgu_haric,728,Colorectum,Oesophagus
+2022,insidans,her_iki_cinsiyete_ozgu_haric,826,Colorectum,"Trachea, bronchus and lung"
+2022,insidans,erkek,100,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,231,Colorectum,Prostate
+2022,insidans,erkek,316,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,417,Stomach,"Trachea, bronchus and lung"
+2022,insidans,erkek,498,"Trachea, bronchus and lung",Colorectum
+2022,insidans,erkek,586,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,insidans,erkek,643,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,807,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,882,"Trachea, bronchus and lung",Prostate
+2022,insidans,kadin,64,Cervix uteri,Stomach
+2022,insidans,kadin,160,Thyroid,"Trachea, bronchus and lung"
+2022,insidans,kadin,266,Breast,Cervix uteri
+2022,insidans,kadin,408,Breast,"Trachea, bronchus and lung"
+2022,insidans,kadin,678,Breast,Cervix uteri
+2022,insidans,kadin,762,Breast,Stomach
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,12,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,152,"Trachea, bronchus and lung",Stomach
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,242,Liver and intrahepatic bile ducts,Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,312,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,356,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,414,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,450,Liver and intrahepatic bile ducts,Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,480,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,484,Colorectum,"Trachea, bronchus and lung"
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,508,Kaposi sarcoma,Oesophagus
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,586,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,591,Stomach,Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,662,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,703,"Trachea, bronchus and lung",Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,729,Liver and intrahepatic bile ducts,Colorectum
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,748,Kaposi sarcoma,"Trachea, bronchus and lung"
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,768,Colorectum,Stomach
+2022,mortalite,her_iki_cinsiyete_ozgu_haric,894,Kaposi sarcoma,Oesophagus
+2022,mortalite,erkek,72,Oesophagus,Prostate
+2022,mortalite,erkek,76,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,152,Stomach,Prostate
+2022,mortalite,erkek,170,Stomach,Prostate
+2022,mortalite,erkek,188,Stomach,Prostate
+2022,mortalite,erkek,192,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,218,Stomach,Prostate
+2022,mortalite,erkek,222,Stomach,Prostate
+2022,mortalite,erkek,288,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,312,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,320,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,324,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,352,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,356,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,mortalite,erkek,414,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,454,Oesophagus,Prostate
+2022,mortalite,erkek,466,Stomach,Prostate
+2022,mortalite,erkek,480,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,600,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,604,Stomach,Prostate
+2022,mortalite,erkek,630,Colorectum,Prostate
+2022,mortalite,erkek,784,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,887,Colorectum,Stomach
+2022,mortalite,kadin,56,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,104,Cervix uteri,"Trachea, bronchus and lung"
+2022,mortalite,kadin,112,Breast,Colorectum
+2022,mortalite,kadin,120,Breast,Cervix uteri
+2022,mortalite,kadin,276,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,288,Breast,Cervix uteri
+2022,mortalite,kadin,364,Breast,Stomach
+2022,mortalite,kadin,392,Breast,Colorectum
+2022,mortalite,kadin,417,Cervix uteri,Stomach
+2022,mortalite,kadin,434,Breast,Colorectum
+2022,mortalite,kadin,516,Breast,Cervix uteri
+2022,mortalite,kadin,524,Cervix uteri,Breast
+2022,mortalite,kadin,688,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,702,Breast,Colorectum
+2022,mortalite,kadin,710,Cervix uteri,Breast
+2022,mortalite,kadin,724,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,728,Breast,Cervix uteri

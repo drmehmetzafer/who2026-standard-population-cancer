@@ -1,0 +1,306 @@
+yil,olcut,cinsiyet,ulke,segi,who2026
+2024,insidans,her_iki,Bulgaria,Breast,Prostate
+2024,insidans,her_iki,Myanmar,Breast,"Trachea, bronchus and lung"
+2024,insidans,her_iki,Central African Republic,Breast,Prostate
+2024,insidans,her_iki,Comoros,Cervix uteri,Prostate
+2024,insidans,her_iki,"Congo, Democratic Republic of",Cervix uteri,Prostate
+2024,insidans,her_iki,Croatia,Breast,Prostate
+2024,insidans,her_iki,Czechia,Breast,Prostate
+2024,insidans,her_iki,Denmark,Breast,Prostate
+2024,insidans,her_iki,Angola,Breast,Prostate
+2024,insidans,her_iki,Fiji,Breast,Prostate
+2024,insidans,her_iki,Finland,Breast,Prostate
+2024,insidans,her_iki,Georgia,Breast,Prostate
+2024,insidans,her_iki,Ghana,Breast,Prostate
+2024,insidans,her_iki,Azerbaijan,Breast,Prostate
+2024,insidans,her_iki,Guam,Breast,Prostate
+2024,insidans,her_iki,Guinea,Breast,Prostate
+2024,insidans,her_iki,Hungary,Breast,Prostate
+2024,insidans,her_iki,Côte d'Ivoire,Breast,Prostate
+2024,insidans,her_iki,Jordan,Breast,Prostate
+2024,insidans,her_iki,Lesotho,Cervix uteri,Prostate
+2024,insidans,her_iki,Liberia,Breast,Prostate
+2024,insidans,her_iki,Libya,Breast,Prostate
+2024,insidans,her_iki,Mauritania,Breast,Prostate
+2024,insidans,her_iki,Mexico,Breast,Prostate
+2024,insidans,her_iki,Armenia,Breast,Prostate
+2024,insidans,her_iki,New Caledonia,Breast,Prostate
+2024,insidans,her_iki,New Zealand,Breast,Prostate
+2024,insidans,her_iki,Nicaragua,Breast,Prostate
+2024,insidans,her_iki,Belgium,Breast,Prostate
+2024,insidans,her_iki,Nigeria,Breast,Prostate
+2024,insidans,her_iki,Philippines,Breast,Prostate
+2024,insidans,her_iki,Poland,Breast,Prostate
+2024,insidans,her_iki,Guinea-Bissau,Cervix uteri,Prostate
+2024,insidans,her_iki,Russian Federation,Breast,Prostate
+2024,insidans,her_iki,Sierra Leone,Breast,Prostate
+2024,insidans,her_iki,Slovakia,Breast,Prostate
+2024,insidans,her_iki,Slovenia,Breast,Prostate
+2024,insidans,her_iki,Botswana,Cervix uteri,Prostate
+2024,insidans,her_iki,Spain,Breast,Prostate
+2024,insidans,her_iki,South Sudan,Breast,Prostate
+2024,insidans,her_iki,Türkiye,Breast,Prostate
+2024,insidans,her_iki,Uganda,Cervix uteri,Prostate
+2024,insidans,her_iki,United Kingdom,Breast,Prostate
+2024,insidans,her_iki,"Tanzania, United Republic of",Cervix uteri,Prostate
+2024,insidans,her_iki,Belize,Breast,Prostate
+2024,insidans,her_iki,United States of America,Breast,Prostate
+2024,insidans,her_iki,Burkina Faso,Breast,Prostate
+2024,insidans,her_iki,Uzbekistan,Breast,Prostate
+2024,insidans,her_iki,Zambia,Cervix uteri,Prostate
+2024,insidans,her_iki,Solomon Islands,Breast,Prostate
+2024,insidans,erkek,Bulgaria,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Sri Lanka,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Georgia,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Azerbaijan,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Guam,Prostate,"Trachea, bronchus and lung"
+2024,insidans,erkek,Kazakhstan,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Afghanistan,Stomach,Prostate
+2024,insidans,erkek,Lebanon,Bladder,Prostate
+2024,insidans,erkek,Malaysia,"Trachea, bronchus and lung",Colorectum
+2024,insidans,erkek,Mozambique,Kaposi sarcoma,Prostate
+2024,insidans,erkek,Armenia,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Timor-Leste,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Russian Federation,"Trachea, bronchus and lung",Prostate
+2024,insidans,erkek,Singapore,Colorectum,Prostate
+2024,insidans,erkek,Syrian Arab Republic,"Trachea, bronchus and lung",Bladder
+2024,insidans,erkek,Turkmenistan,Stomach,Prostate
+2024,insidans,erkek,North Macedonia,"Trachea, bronchus and lung",Prostate
+2024,insidans,kadin,Cameroon,Breast,Cervix uteri
+2024,insidans,kadin,China,Thyroid,"Trachea, bronchus and lung"
+2024,insidans,kadin,"Congo, Republic of",Breast,Cervix uteri
+2024,insidans,kadin,Bangladesh,Cervix uteri,"Trachea, bronchus and lung"
+2024,insidans,kadin,Nepal,Breast,Stomach
+2024,insidans,kadin,Tajikistan,Breast,Stomach
+2024,mortalite,her_iki,Bulgaria,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Belarus,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Central African Republic,Breast,Prostate
+2024,mortalite,her_iki,Comoros,Cervix uteri,Prostate
+2024,mortalite,her_iki,"Congo, Democratic Republic of",Cervix uteri,Prostate
+2024,mortalite,her_iki,Equatorial Guinea,Breast,Prostate
+2024,mortalite,her_iki,French Polynesia,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Gabon,Breast,Prostate
+2024,mortalite,her_iki,Georgia,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,The Republic of the Gambia,Cervix uteri,Liver and intrahepatic bile ducts
+2024,mortalite,her_iki,Ghana,Breast,Prostate
+2024,mortalite,her_iki,Argentina,Breast,Prostate
+2024,mortalite,her_iki,Guatemala,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,her_iki,Guinea,Breast,Prostate
+2024,mortalite,her_iki,Iceland,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,"Iran, Islamic Republic of",Breast,Prostate
+2024,mortalite,her_iki,Jordan,Breast,"Trachea, bronchus and lung"
+2024,mortalite,her_iki,Lesotho,Cervix uteri,Prostate
+2024,mortalite,her_iki,Liberia,Breast,Prostate
+2024,mortalite,her_iki,Bahamas,Breast,Prostate
+2024,mortalite,her_iki,Lithuania,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Madagascar,Cervix uteri,Prostate
+2024,mortalite,her_iki,Malta,Breast,"Trachea, bronchus and lung"
+2024,mortalite,her_iki,Mauritania,Breast,Prostate
+2024,mortalite,her_iki,Republic of Moldova,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Vanuatu,Cervix uteri,Prostate
+2024,mortalite,her_iki,Philippines,Breast,Prostate
+2024,mortalite,her_iki,Guinea-Bissau,Cervix uteri,Prostate
+2024,mortalite,her_iki,"France, La Réunion","Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Bhutan,Cervix uteri,Stomach
+2024,mortalite,her_iki,Russian Federation,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Sao Tome and Principe,Breast,Prostate
+2024,mortalite,her_iki,Bolivia (Plurinational State of),Cervix uteri,Prostate
+2024,mortalite,her_iki,Sierra Leone,Breast,Prostate
+2024,mortalite,her_iki,Slovakia,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Somalia,Breast,Prostate
+2024,mortalite,her_iki,South Sudan,Breast,Prostate
+2024,mortalite,her_iki,Sudan,Breast,Prostate
+2024,mortalite,her_iki,Brazil,Breast,Prostate
+2024,mortalite,her_iki,Togo,Breast,Prostate
+2024,mortalite,her_iki,Tunisia,Breast,"Trachea, bronchus and lung"
+2024,mortalite,her_iki,Uganda,Cervix uteri,Prostate
+2024,mortalite,her_iki,"Tanzania, United Republic of",Cervix uteri,Prostate
+2024,mortalite,her_iki,Uruguay,"Trachea, bronchus and lung",Prostate
+2024,mortalite,her_iki,Zambia,Cervix uteri,Prostate
+2024,mortalite,her_iki,Solomon Islands,Cervix uteri,Prostate
+2024,mortalite,her_iki,Brunei Darussalam,Breast,"Trachea, bronchus and lung"
+2024,mortalite,erkek,Chile,Stomach,Prostate
+2024,mortalite,erkek,Costa Rica,Stomach,Prostate
+2024,mortalite,erkek,Cuba,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,French Polynesia,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Guatemala,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,Iceland,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Mali,Stomach,Prostate
+2024,mortalite,erkek,Oman,Liver and intrahepatic bile ducts,"Trachea, bronchus and lung"
+2024,mortalite,erkek,Curaçao,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Pakistan,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Papua New Guinea,"Lip, oral cavity",Colorectum
+2024,mortalite,erkek,Peru,Stomach,Prostate
+2024,mortalite,erkek,Philippines,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Guinea-Bissau,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,Senegal,Liver and intrahepatic bile ducts,Prostate
+2024,mortalite,erkek,Slovakia,"Trachea, bronchus and lung",Colorectum
+2024,mortalite,erkek,Botswana,"Trachea, bronchus and lung",Oesophagus
+2024,mortalite,erkek,Brazil,"Trachea, bronchus and lung",Prostate
+2024,mortalite,erkek,Uzbekistan,"Trachea, bronchus and lung",Stomach
+2024,mortalite,kadin,Belarus,Breast,Colorectum
+2024,mortalite,kadin,Cambodia,Breast,Liver and intrahepatic bile ducts
+2024,mortalite,kadin,Chile,Breast,Colorectum
+2024,mortalite,kadin,Ecuador,Breast,Stomach
+2024,mortalite,kadin,French Polynesia,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,Ghana,Breast,Cervix uteri
+2024,mortalite,kadin,Azerbaijan,Breast,Stomach
+2024,mortalite,kadin,Japan,Breast,Colorectum
+2024,mortalite,kadin,Luxembourg,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,Bangladesh,Oesophagus,"Trachea, bronchus and lung"
+2024,mortalite,kadin,New Caledonia,Breast,"Trachea, bronchus and lung"
+2024,mortalite,kadin,Peru,Cervix uteri,Stomach
+2024,mortalite,kadin,Bhutan,Cervix uteri,Stomach
+2024,mortalite,kadin,Russian Federation,Breast,Colorectum
+2024,mortalite,kadin,Spain,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,Albania,"Trachea, bronchus and lung",Breast
+2024,mortalite,kadin,Solomon Islands,Cervix uteri,Breast
+2024,mortalite,kadin,Brunei Darussalam,Breast,"Trachea, bronchus and lung"
+2022,insidans,her_iki,Bulgaria,Breast,Prostate
+2022,insidans,her_iki,Burundi,Cervix uteri,Prostate
+2022,insidans,her_iki,Cambodia,Breast,Liver and intrahepatic bile ducts
+2022,insidans,her_iki,Cameroon,Breast,Prostate
+2022,insidans,her_iki,Central African Republic,Breast,Prostate
+2022,insidans,her_iki,Croatia,Breast,Prostate
+2022,insidans,her_iki,Czechia,Breast,Prostate
+2022,insidans,her_iki,Denmark,Breast,Prostate
+2022,insidans,her_iki,Ecuador,Breast,Prostate
+2022,insidans,her_iki,Equatorial Guinea,Breast,Prostate
+2022,insidans,her_iki,Finland,Breast,Prostate
+2022,insidans,her_iki,French Polynesia,Breast,Prostate
+2022,insidans,her_iki,Gabon,Breast,Prostate
+2022,insidans,her_iki,Ghana,Breast,Prostate
+2022,insidans,her_iki,Guam,Breast,Prostate
+2022,insidans,her_iki,Guinea,Cervix uteri,Prostate
+2022,insidans,her_iki,Hungary,Breast,Prostate
+2022,insidans,her_iki,Iceland,Breast,Prostate
+2022,insidans,her_iki,"Iran, Islamic Republic of",Breast,Prostate
+2022,insidans,her_iki,Japan,Breast,Prostate
+2022,insidans,her_iki,Austria,Breast,Prostate
+2022,insidans,her_iki,Kenya,Breast,Prostate
+2022,insidans,her_iki,Liberia,Cervix uteri,Prostate
+2022,insidans,her_iki,Madagascar,Cervix uteri,Prostate
+2022,insidans,her_iki,Mauritania,Breast,Prostate
+2022,insidans,her_iki,Mexico,Breast,Prostate
+2022,insidans,her_iki,Armenia,Breast,Prostate
+2022,insidans,her_iki,New Caledonia,Breast,Prostate
+2022,insidans,her_iki,New Zealand,Breast,Prostate
+2022,insidans,her_iki,Nigeria,Breast,Prostate
+2022,insidans,her_iki,Paraguay,Breast,Prostate
+2022,insidans,her_iki,Poland,Breast,Prostate
+2022,insidans,her_iki,Guinea-Bissau,Cervix uteri,Prostate
+2022,insidans,her_iki,Romania,Breast,Prostate
+2022,insidans,her_iki,Russian Federation,Breast,Prostate
+2022,insidans,her_iki,Bolivia (Plurinational State of),Cervix uteri,Prostate
+2022,insidans,her_iki,Senegal,Cervix uteri,Prostate
+2022,insidans,her_iki,Slovenia,Breast,Prostate
+2022,insidans,her_iki,Spain,Breast,Prostate
+2022,insidans,her_iki,South Sudan,Breast,Prostate
+2022,insidans,her_iki,Switzerland,Breast,Prostate
+2022,insidans,her_iki,Tajikistan,Breast,Stomach
+2022,insidans,her_iki,Togo,Breast,Prostate
+2022,insidans,her_iki,Türkiye,Breast,Prostate
+2022,insidans,her_iki,Uganda,Cervix uteri,Prostate
+2022,insidans,her_iki,Belize,Breast,Prostate
+2022,insidans,her_iki,Uruguay,Breast,Prostate
+2022,insidans,her_iki,Zambia,Cervix uteri,Prostate
+2022,insidans,erkek,Bulgaria,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,Ethiopia,Colorectum,Prostate
+2022,insidans,erkek,Guam,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,Kyrgyzstan,Stomach,"Trachea, bronchus and lung"
+2022,insidans,erkek,Republic of Moldova,"Trachea, bronchus and lung",Colorectum
+2022,insidans,erkek,Pakistan,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,insidans,erkek,Russian Federation,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,North Macedonia,"Trachea, bronchus and lung",Prostate
+2022,insidans,erkek,Samoa,"Trachea, bronchus and lung",Prostate
+2022,insidans,kadin,China,Thyroid,"Trachea, bronchus and lung"
+2022,insidans,kadin,Gabon,Breast,Cervix uteri
+2022,insidans,kadin,"Korea, Democratic People's Republic of",Breast,"Trachea, bronchus and lung"
+2022,insidans,kadin,Bhutan,Cervix uteri,Stomach
+2022,insidans,kadin,Sao Tome and Principe,Breast,Cervix uteri
+2022,insidans,kadin,Tajikistan,Breast,Stomach
+2022,mortalite,her_iki,Bulgaria,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Burundi,Cervix uteri,Prostate
+2022,mortalite,her_iki,Belarus,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Cameroon,Breast,Prostate
+2022,mortalite,her_iki,Central African Republic,Breast,Prostate
+2022,mortalite,her_iki,Colombia,Breast,Prostate
+2022,mortalite,her_iki,Cyprus,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,El Salvador,Cervix uteri,Prostate
+2022,mortalite,her_iki,Equatorial Guinea,Cervix uteri,Prostate
+2022,mortalite,her_iki,Gaza Strip and West Bank,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Ghana,Breast,Prostate
+2022,mortalite,her_iki,"France, Guadeloupe",Breast,Prostate
+2022,mortalite,her_iki,Argentina,Breast,Prostate
+2022,mortalite,her_iki,Guatemala,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,her_iki,Honduras,Cervix uteri,Prostate
+2022,mortalite,her_iki,Iceland,Breast,Prostate
+2022,mortalite,her_iki,Indonesia,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Lebanon,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Liberia,Cervix uteri,Prostate
+2022,mortalite,her_iki,Lithuania,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Madagascar,Cervix uteri,Prostate
+2022,mortalite,her_iki,Maldives,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Mauritania,Cervix uteri,Prostate
+2022,mortalite,her_iki,Mauritius,Breast,Prostate
+2022,mortalite,her_iki,Mexico,Breast,Prostate
+2022,mortalite,her_iki,Morocco,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Nepal,Cervix uteri,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Vanuatu,Cervix uteri,Liver and intrahepatic bile ducts
+2022,mortalite,her_iki,Norway,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Papua New Guinea,Breast,Prostate
+2022,mortalite,her_iki,Peru,Cervix uteri,Prostate
+2022,mortalite,her_iki,Philippines,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Timor-Leste,Breast,"Trachea, bronchus and lung"
+2022,mortalite,her_iki,Puerto Rico,Breast,Prostate
+2022,mortalite,her_iki,"France, La Réunion","Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Senegal,Cervix uteri,Prostate
+2022,mortalite,her_iki,Slovakia,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Zimbabwe,Cervix uteri,Prostate
+2022,mortalite,her_iki,South Sudan,Breast,Prostate
+2022,mortalite,her_iki,Brazil,Breast,Prostate
+2022,mortalite,her_iki,Togo,Breast,Prostate
+2022,mortalite,her_iki,Uganda,Cervix uteri,Prostate
+2022,mortalite,her_iki,Uruguay,"Trachea, bronchus and lung",Prostate
+2022,mortalite,her_iki,Samoa,Breast,Prostate
+2022,mortalite,her_iki,Zambia,Cervix uteri,Prostate
+2022,mortalite,erkek,Chile,Stomach,Prostate
+2022,mortalite,erkek,Colombia,Stomach,Prostate
+2022,mortalite,erkek,Costa Rica,Stomach,Prostate
+2022,mortalite,erkek,Cuba,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Ecuador,Stomach,Prostate
+2022,mortalite,erkek,El Salvador,Stomach,Prostate
+2022,mortalite,erkek,Ghana,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,"France, Guadeloupe","Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Guatemala,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,Guinea,Liver and intrahepatic bile ducts,Prostate
+2022,mortalite,erkek,Iceland,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,India,"Lip, oral cavity","Trachea, bronchus and lung"
+2022,mortalite,erkek,Kuwait,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Malawi,Oesophagus,Prostate
+2022,mortalite,erkek,Mali,Stomach,Prostate
+2022,mortalite,erkek,Mauritius,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Paraguay,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Peru,Stomach,Prostate
+2022,mortalite,erkek,Puerto Rico,Colorectum,Prostate
+2022,mortalite,erkek,Botswana,Oesophagus,Prostate
+2022,mortalite,erkek,Brazil,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,United Arab Emirates,"Trachea, bronchus and lung",Prostate
+2022,mortalite,erkek,Yemen,Colorectum,Stomach
+2022,mortalite,kadin,Myanmar,Cervix uteri,"Trachea, bronchus and lung"
+2022,mortalite,kadin,Belarus,Breast,Colorectum
+2022,mortalite,kadin,Cameroon,Breast,Cervix uteri
+2022,mortalite,kadin,Germany,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,Ghana,Breast,Cervix uteri
+2022,mortalite,kadin,"Iran, Islamic Republic of",Breast,Stomach
+2022,mortalite,kadin,Japan,Breast,Colorectum
+2022,mortalite,kadin,Kyrgyzstan,Cervix uteri,Stomach
+2022,mortalite,kadin,Libya,Breast,Colorectum
+2022,mortalite,kadin,Namibia,Breast,Cervix uteri
+2022,mortalite,kadin,Nepal,Cervix uteri,Breast
+2022,mortalite,kadin,Belgium,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,Serbia,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,Singapore,Breast,Colorectum
+2022,mortalite,kadin,South Africa,Cervix uteri,Breast
+2022,mortalite,kadin,Spain,"Trachea, bronchus and lung",Breast
+2022,mortalite,kadin,South Sudan,Breast,Cervix uteri
