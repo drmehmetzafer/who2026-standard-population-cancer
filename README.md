@@ -21,7 +21,7 @@ Preregistration: OSF Registries, https://osf.io/stb6m (registered 10 October 202
 - The raw file contains 42,294 exact duplicate rows (all-cancers site retrieved twice); scripts remove them (1,437,996 unique records).
 - Python 3 with NumPy and SciPy; random seed 20261010. R 4.6.0 with data.table.
 - Script comments are in Turkish.
-- The code was written with the assistance of a large language model (Claude, Anthropic) and was run, checked and replicated by the authors; see the Acknowledgements of the article.
+
 
 ## Licence
 
